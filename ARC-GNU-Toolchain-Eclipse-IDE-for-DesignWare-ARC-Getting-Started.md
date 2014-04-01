@@ -30,6 +30,22 @@ ARC GNU plugins for Eclipse have following requirements to the system:
 ## 2.1 Downloading latest plugins
 User can get this plug-in from website URL https://github.com/foss-for-synopsys-dwc-arc-processors/arc_gnu_eclipse/releases, this is an archived version of the GNU ARC Eclipse plug-in update site, the file name is arc_gnu_plugins.zip
 
-To run ARC_GNU_IDE plugins, you need to install Target Terminal plugin. The url for Kepler’s update site is http://download.eclipse.org/releases/kepler
-***
-, then select: Mobile and Device Development, especially Target Management Terminal which is "An ANSI (vt102) compatible Terminal including plug-ins for Serial, SSH and Telnet connections."
+To run ARC_GNU_IDE plugins, you need to install Target Terminal plugin. The url for Kepler’s update site is http://download.eclipse.org/releases/kepler, then select: Mobile and Device Development, especially Target Management Terminal which is "An ANSI (vt102) compatible Terminal including plug-ins for Serial, SSH and Telnet connections."
+## 2.2: Installing into eclipse
+After downloading arc_gnu_plugins.zip successfully, user also can install it from local by pointing Eclipse to it: Eclipse -> Install New Software -> Add -> Archive -> select arc_gnu_plugins.zip file. Unzip this archived folder, there will be six components in it.
+ 
+## 2.3: Updating existing plugin
+If users want to update the existing plugin, as shown in figure as below, and the version of this current plugin is for example “1.1.0.201402280630”, they can update it by using the same way of plugin installation.
+
+## 2.4: Linux installation
+
+If you plan to connect to UART port on target board with RxTx plugin controlled by IDE you need to change permissions of dicrectory /var/lock in your system. Usually by default only users with root access are allowed to write into this directory, however RxTx tries to write file into this directory, so unless you are ready to run IDE with sudo, you need to allow write access to /var/lock directory for everyone. Note that if /var/lock is a symbolic link to another directory then you need to change permissions for this directory as well. For example to set required permissions on Fedora:
+
+  $ ls -l /var/lock 
+  lrwxrwxrwx. 1 root root 11 Jun 27  2013 /var/lock -> ../run/lock
+  $ ls -ld /run/lock/
+  drwxr-xr-x. 8 root root 160 Mar 28 17:32 /run/lock/
+  $ sudo chmod go+w /run/lock
+  $ ls -ld /run/lock/
+  drwxrwxrwx. 8 root root 160 Mar 28 17:32 /run/lock/
+If you don’t want or can’t change permissions for this directory then you need to disable serial port in debugger configuration window.
