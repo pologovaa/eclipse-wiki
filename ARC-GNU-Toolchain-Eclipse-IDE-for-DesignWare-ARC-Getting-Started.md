@@ -90,11 +90,8 @@ To debug the project, create a new debug configuration using _arc-elf32-gdb_.
 4. Click the **Debugger** tab.
 Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM Starter Kit. Select the nSIM for use simulator without hardware be connected.   
 5. Click the **Commands** tab.
-
 The default **“Initialize”** and **“Run”** commands is null, you can use them directly, or modify the list as desired. The “COM Ports” picklist shows the value for Digilent USB Serial Port from the Windows registry. You can modify the value as desired, but the selection must match the port number in Device and Printers as shown in below.
-
 To make USB Serial COM Port on Linux, users need to connect hardware through Virtual Machine as shown in below.
-
 Then by running “sudo chmod o+rw /dev/ttyUSB*” and “sudo chown root.uucp /var/lock/”, users can get Digilent USB Serial COM Port list on Redhat. After connected successfully, Digilent USB Serial COM Port on windows device will be found.
 6. Click the Debug button in the Debug configurations dialog to initiate debug session. 
 This action automatically launches the Serial terminal and OpenOCD applications in the background and connects to the UART on the EM Starter Kit board. After checking the “Allocate console (necessary for input)" in **Common Tab**, OpenOCD startup log messages will appear in the console. 
