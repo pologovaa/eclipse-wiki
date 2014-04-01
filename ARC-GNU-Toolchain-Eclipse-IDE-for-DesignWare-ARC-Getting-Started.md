@@ -92,3 +92,36 @@ Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM Starter 
 5. Click the **Commands** tab.
 
 The default **“Initialize”** and **“Run”** commands is null, you can use them directly, or modify the list as desired. The “COM Ports” picklist shows the value for Digilent USB Serial Port from the Windows registry. You can modify the value as desired, but the selection must match the port number in Device and Printers as shown in below.
+
+To make USB Serial COM Port on Linux, users need to connect hardware through Virtual Machine as shown in below.
+
+Then by running “sudo chmod o+rw /dev/ttyUSB*” and “sudo chown root.uucp /var/lock/”, users can get Digilent USB Serial COM Port list on Redhat. After connected successfully, Digilent USB Serial COM Port on windows device will be found.
+6. Click the Debug button in the Debug configurations dialog to initiate debug session. 
+This action automatically launches the Serial terminal and OpenOCD applications in the background and connects to the UART on the EM Starter Kit board. After checking the “Allocate console (necessary for input)" in **Common Tab**, OpenOCD startup log messages will appear in the console. 
+7. Click **Yes** in the confirmation dialog to switch to the Debug perspective
+8. Click the **Debug** button in the **Debug configurations** dialog to initiate the debug session:
+## Step 5: Debugging an Application
+The **Debug** perspective provides an integrated debug environment with individual windows to display various debugging data such as the debug stack, variables, registers  breakpoints, etc. 
+
+1. To set a breakpoint, place your cursor on the marker bar along the left edge of the editor window on the line where you want the breakpoint:
+2. Examine Variables, Breakpoints, Expressions or Registers from different tabs of the same debug perspective: 
+3. Examine the debug Views showing the debugger in use:
+4. Switch Console tabs to view OpenOCD **Console**output:  
+5. Step through each line by using F5 (step into), and F6 (step over). 
+6. Toggle breakpoint at the last line of main(), which is "}" , and then clicking Resume or pressing F8.
+7. Terminate all external tools before you quit current debugging process.
+# Appendix: Debugging a big-endian Application
+The EM Starter Kit comes with 4 pre-installed little endian configurations.   User wishing to work with big endian configuration can use the procedure below to program a big endian .bit file, using the Digilent Adept Software. Big endian .bit file is not a part of the EM Starter Kit Software package, Synopsys will provide it on request. 
+1. Ensure that EM SK is powered ON and connected to the host PC
+2. On the EM Starter Kit, close jumper J8 as shown in images below: 
+3. Dowload the Digilent Adept 2.13.1 System Software for Windows from 
+ http://www.digilentinc.com/Products/Detail.cfm?Prod=ADEPT2
+4. Open the "Adept" utility
+5. Press "Initialize chain". There should be only one device in a chain: XC6SLX45.  
+6. Press "Browse" button and navigate to location of your big endian .bit file 
+7. Press "Program" button.
+8. Return  Jumper J8 to its initial position. 
+9. In Debug Configuration panel, select big endian configuration file under
+$INSTALL_DIR\share\openocd\scripts\target\snps_starter_kit_arc-em_eb.cfg
+
+The EM Starter Kit will now use the selected big-endian FPGA image until the board is powered off or until reconfiguration by pressing the FPGA configuration button located above the “C” in the “ARC” log on the board. Refer to EM Starter Kit documentation for more details.
