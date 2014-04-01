@@ -43,12 +43,6 @@ If you plan to connect to UART port on target board with RxTx plugin controlled 
 
 In a nutshell:
 
-    $ git clone https://github.com/foss-for-synopsys-dwc-arc-processors/openocd.git
-    $ cd openocd
-    $ ./bootstrap
-    $ ./configure --enable-maintainer-mode --disable-werror
-    $ make
-    $ make install
     $ ls -l /var/lock 
     lrwxrwxrwx. 1 root root 11 Jun 27  2013 /var/lock -> ../run/lock
     $ ls -ld /run/lock/
