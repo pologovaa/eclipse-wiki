@@ -49,3 +49,13 @@ If you plan to connect to UART port on target board with RxTx plugin controlled 
     $ ls -ld /run/lock/
     drwxrwxrwx. 8 root root 160 Mar 28 17:32 /run/lock/
 If you don’t want or can’t change permissions for this directory then you need to disable serial port in debugger configuration window.
+# Building a C Project
+## Step 1: Creating a New C Project
+1. Select **File >New >C Project** 
+The **C Project** dialog has two ARC project types:  **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static Library**.   
+Please note that different project types have different Tool Setting properties and different default options
+2. Enter a project name
+   1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
+The Hello ARC project is an example project that comes with the EM Starter Kit Software and uses the UART on the EM Starter Kit to display output.  Refer to the EM Starter Kit Getting Started for instructions on how to connect to the UART on the EM Starter Kit board using the Serial Terminal plugin.
+   2. Select the little endian toolchain from **Toolchains **Pane ( EM Starter Kit configurations are little endian)
+   3. Click the **Next **button.
