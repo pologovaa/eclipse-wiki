@@ -110,7 +110,9 @@ The **Debug** perspective provides an integrated debug environment with individu
 5. Step through each line by using F5 (step into), and F6 (step over). 
 6. Toggle breakpoint at the last line of main(), which is "}" , and then clicking Resume or pressing F8.
 7. Terminate all external tools before you quit current debugging process.
+
 # Appendix: Debugging a big-endian Application
+
 The EM Starter Kit comes with 4 pre-installed little endian configurations.   User wishing to work with big endian configuration can use the procedure below to program a big endian .bit file, using the Digilent Adept Software. Big endian .bit file is not a part of the EM Starter Kit Software package, Synopsys will provide it on request. 
 1. Ensure that EM SK is powered ON and connected to the host PC
 2. On the EM Starter Kit, close jumper J8 as shown in images below: 
