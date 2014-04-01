@@ -72,7 +72,7 @@ For example, select the Barrel shifter option for the EM Processor:
 
 Various options can be selected for the compiler, assembler and linker components of the toolchain as desired.  
 
-Once the configuration options have been selected, click **Apply**and then **OK** to save the toolchain configuration. 
+Once the configuration options have been selected, click **Apply** and then **OK** to save the toolchain configuration. 
  
 ## Step 3: Building a Project
 1. Right click on the _Hello ARC project_ and select **Build Project** from the pop-up menu
