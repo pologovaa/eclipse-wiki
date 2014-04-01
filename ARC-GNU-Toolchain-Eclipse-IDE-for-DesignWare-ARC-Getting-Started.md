@@ -58,7 +58,7 @@ Please note that different project types have different Tool Setting properties 
    1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
 The Hello ARC project is an example project that comes with the EM Starter Kit Software and uses the UART on the EM Starter Kit to display output.  Refer to the EM Starter Kit Getting Started for instructions on how to connect to the UART on the EM Starter Kit board using the Serial Terminal plugin.
    2. Select the little endian toolchain from **Toolchains** Pane ( EM Starter Kit configurations are little endian)
-   3. Click the **Next**button.
+   3. Click the **Next** button.
 3. You can also fill in additional information for a project. Afterwards, click the **Next** button
 4. Select the desired configuration and click **Finish**
 
@@ -106,7 +106,7 @@ The **Debug** perspective provides an integrated debug environment with individu
 1. To set a breakpoint, place your cursor on the marker bar along the left edge of the editor window on the line where you want the breakpoint:
 2. Examine Variables, Breakpoints, Expressions or Registers from different tabs of the same debug perspective: 
 3. Examine the debug Views showing the debugger in use:
-4. Switch Console tabs to view OpenOCD **Console**output:  
+4. Switch Console tabs to view OpenOCD **Console** output:  
 5. Step through each line by using F5 (step into), and F6 (step over). 
 6. Toggle breakpoint at the last line of main(), which is "}" , and then clicking Resume or pressing F8.
 7. Terminate all external tools before you quit current debugging process.
