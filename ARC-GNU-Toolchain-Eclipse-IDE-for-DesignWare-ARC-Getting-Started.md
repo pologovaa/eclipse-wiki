@@ -64,6 +64,7 @@ The Hello ARC project is an example project that comes with the EM Starter Kit S
 
 ## Step 2: Configuring the ARC GNU Toolchain
 Follow the steps below to configure the ARC GNU toolchain:
+
 1. Right click on the Hello ARC project and select Properties from the pop-up menu:
 2. Select desired options for each tool under the Tool Settings tab:
 For example, select the Barrel shifter option for the EM Processor: 
