@@ -41,11 +41,19 @@ If users want to update the existing plugin, as shown in figure as below, and th
 
 If you plan to connect to UART port on target board with RxTx plugin controlled by IDE you need to change permissions of dicrectory /var/lock in your system. Usually by default only users with root access are allowed to write into this directory, however RxTx tries to write file into this directory, so unless you are ready to run IDE with sudo, you need to allow write access to /var/lock directory for everyone. Note that if /var/lock is a symbolic link to another directory then you need to change permissions for this directory as well. For example to set required permissions on Fedora:
 
-  $ ls -l /var/lock 
-  lrwxrwxrwx. 1 root root 11 Jun 27  2013 /var/lock -> ../run/lock
-  $ ls -ld /run/lock/
-  drwxr-xr-x. 8 root root 160 Mar 28 17:32 /run/lock/
-  $ sudo chmod go+w /run/lock
-  $ ls -ld /run/lock/
-  drwxrwxrwx. 8 root root 160 Mar 28 17:32 /run/lock/
+In a nutshell:
+
+    $ git clone https://github.com/foss-for-synopsys-dwc-arc-processors/openocd.git
+    $ cd openocd
+    $ ./bootstrap
+    $ ./configure --enable-maintainer-mode --disable-werror
+    $ make
+    $ make install
+    $ ls -l /var/lock 
+    lrwxrwxrwx. 1 root root 11 Jun 27  2013 /var/lock -> ../run/lock
+    $ ls -ld /run/lock/
+    drwxr-xr-x. 8 root root 160 Mar 28 17:32 /run/lock/
+    $ sudo chmod go+w /run/lock
+    $ ls -ld /run/lock/
+    drwxrwxrwx. 8 root root 160 Mar 28 17:32 /run/lock/
 If you don’t want or can’t change permissions for this directory then you need to disable serial port in debugger configuration window.
