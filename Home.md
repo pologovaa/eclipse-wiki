@@ -1,1 +1,0 @@
-Welcome to the arc_gnu_eclipse wiki!
