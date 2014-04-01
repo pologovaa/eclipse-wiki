@@ -32,6 +32,7 @@ User can get this plug-in from website URL https://github.com/foss-for-synopsys-
 
 ![Components of ARC_GNU_IDE_plugins.zip](images/components_of_arc_gnu_plugins.zip.png)
 _Figure 1 Components of arc_gnu_plugins.zip_
+
 ![Components of arc_gnu_plugins.zip/features](images/Components of arc_gnu_plugins.zip features.png)
 _Figure 2 Components of arc_gnu_plugins.zip features_
 To run ARC_GNU_IDE plugins, you need to install Target Terminal plugin. The url for Kepler’s update site is http://download.eclipse.org/releases/kepler, then select: Mobile and Device Development, especially Target Management Terminal which is "An ANSI (vt102) compatible Terminal including plug-ins for Serial, SSH and Telnet connections."
