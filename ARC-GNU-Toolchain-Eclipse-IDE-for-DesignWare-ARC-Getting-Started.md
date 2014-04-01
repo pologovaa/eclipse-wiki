@@ -114,6 +114,7 @@ The **Debug** perspective provides an integrated debug environment with individu
 # Appendix: Debugging a big-endian Application
 
 The EM Starter Kit comes with 4 pre-installed little endian configurations.   User wishing to work with big endian configuration can use the procedure below to program a big endian .bit file, using the Digilent Adept Software. Big endian .bit file is not a part of the EM Starter Kit Software package, Synopsys will provide it on request. 
+
 1. Ensure that EM SK is powered ON and connected to the host PC
 2. On the EM Starter Kit, close jumper J8 as shown in images below: 
 3. Dowload the Digilent Adept 2.13.1 System Software for Windows from 
