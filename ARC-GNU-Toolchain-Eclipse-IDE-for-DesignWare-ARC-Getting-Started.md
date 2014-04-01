@@ -15,7 +15,7 @@ The ARC GNU IDE provides support for the following functionality:
 	* arc-elf32-size
 * 	Configuration of debug and run configurations for EM Starter Kit using OpenOCD. 
 * 	Configuration of debug and run configurations for supported FPGA Development Systems and debug probes (Digilent HS1 or Ashling Opella-XD).
-* 	GDB-based debugging using **Debug ** perspective providing detailed debug information (including breakpoints, variables, registers, and disassembly)
+* 	GDB-based debugging using  **Debug **  perspective providing detailed debug information (including breakpoints, variables, registers, and disassembly)
 
 Note: Before you begin, refer to the EM Starter Kit and ARC GDB Getting Started guide and follow the instructions on how to connect the EM Starter Kit to your PC.  This is required for the Eclipse IDE GDB debugger to successfully download and debug programs on the target.
 
@@ -84,5 +84,5 @@ Once the C Project is successfully compiled by ARC GCC, you can debug the result
 
 To debug the project, create a new debug configuration using _arc-elf32-gdb_. 
 
-1. Select **Debug Configurations**  from the **Run ** menu or by clicking on the down arrow next to the bug icon: 
-2. Double click on the ARC C/C++ **Application ** or click on the top left icon to create a new debug configuration for the project:
+1. Select **Debug Configurations**  from the  **Run **  menu or by clicking on the down arrow next to the bug icon: 
+2. Double click on the ARC C/C++  **Application **  or click on the top left icon to create a new debug configuration for the project:
