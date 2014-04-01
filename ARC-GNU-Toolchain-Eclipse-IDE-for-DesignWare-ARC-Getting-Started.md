@@ -87,7 +87,7 @@ To debug the project, create a new debug configuration using _arc-elf32-gdb_.
 1. Select **Debug Configurations**  from the  **Run **  menu or by clicking on the down arrow next to the bug icon: 
 2. Double click on the ARC C/C++  **Application **  or click on the top left icon to create a new debug configuration for the project:
 3. Select a name for the new debug configuration (by default, it equals the project name followed by “Debug”).
-4. Click the **Debugger ** tab.
+4. Click the **Debugger** tab.
 Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM Starter Kit. Select the nSIM for use simulator without hardware be connected.   
 5. Click the **Commands ** tab.
 
