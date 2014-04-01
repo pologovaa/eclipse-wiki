@@ -57,9 +57,9 @@ Please note that different project types have different Tool Setting properties 
 2. Enter a project name
    1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
 The Hello ARC project is an example project that comes with the EM Starter Kit Software and uses the UART on the EM Starter Kit to display output.  Refer to the EM Starter Kit Getting Started for instructions on how to connect to the UART on the EM Starter Kit board using the Serial Terminal plugin.
-   2. Select the little endian toolchain from **Toolchains **Pane ( EM Starter Kit configurations are little endian)
-   3. Click the **Next **button.
-3. You can also fill in additional information for a project. Afterwards, click the **Next **button
+   2. Select the little endian toolchain from **Toolchains** Pane ( EM Starter Kit configurations are little endian)
+   3. Click the **Next**button.
+3. You can also fill in additional information for a project. Afterwards, click the **Next** button
 4. Select the desired configuration and click **Finish**
 
 ## Step 2: Configuring the ARC GNU Toolchain
@@ -72,7 +72,7 @@ For example, select the Barrel shifter option for the EM Processor:
 
 Various options can be selected for the compiler, assembler and linker components of the toolchain as desired.  
 
-Once the configuration options have been selected, click **Apply **and then **OK ** to save the toolchain configuration. 
+Once the configuration options have been selected, click **Apply**and then **OK** to save the toolchain configuration. 
  
 ## Step 3: Building a Project
 1. Right click on the _Hello ARC project_ and select **Build Project** from the pop-up menu
@@ -89,6 +89,6 @@ To debug the project, create a new debug configuration using _arc-elf32-gdb_.
 3. Select a name for the new debug configuration (by default, it equals the project name followed by “Debug”).
 4. Click the **Debugger** tab.
 Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM Starter Kit. Select the nSIM for use simulator without hardware be connected.   
-5. Click the **Commands ** tab.
+5. Click the **Commands** tab.
 
 The default **“Initialize”** and **“Run”** commands is null, you can use them directly, or modify the list as desired. The “COM Ports” picklist shows the value for Digilent USB Serial Port from the Windows registry. You can modify the value as desired, but the selection must match the port number in Device and Printers as shown in below.
