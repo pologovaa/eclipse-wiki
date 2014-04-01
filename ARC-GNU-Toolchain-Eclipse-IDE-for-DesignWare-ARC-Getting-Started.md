@@ -67,7 +67,9 @@ Follow the steps below to configure the ARC GNU toolchain:
 
 1. Right click on the Hello ARC project and select Properties from the pop-up menu:
 2. Select desired options for each tool under the Tool Settings tab:
+
 For example, select the Barrel shifter option for the EM Processor: 
+
 Various options can be selected for the compiler, assembler and linker components of the toolchain as desired.  
 
 Once the configuration options have been selected, click **Apply **and then **OK **to save the toolchain configuration. 
