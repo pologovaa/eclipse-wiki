@@ -63,11 +63,6 @@ _Figure 8 Get General Information by clicking “more”_
 ![Figure 9 Get License Agreement by clicking “more”](images/Figure 9 Get License Agreement by clicking “more”.png)
 _Figure 9 Get License Agreement by clicking “more”_ 
 
-
-![Figure 10 Install Details](images/Figure 10 Install Details.png)
-_Figure 10 Install Details_ 
-
-
 ![Figure 10 Install Details](images/Figure 10 Install Details.png)
 _Figure 10 Install Details_ 
 
@@ -77,9 +72,51 @@ _Figure 11 Accept the terms of license agreement_
 ![Figure 12 Install ARC GNU IDE Plugin](images/Figure 12 Install ARC GNU IDE Plugin.png)
 _Figure 12 Install ARC GNU IDE Plugin_ 
 
+![Figure 13 Warning about this plugins installation](images/Figure 13 Warning about this plugins installation.png)
+_Figure 13 Warning about this plugins installation_ 
+
+![Figure 14 Restarting Eclipse](images/Figure 14 Restarting Eclipse.png)
+_Figure 14 Restarting Eclipse_ 
+
+Ignore the Security Warning, and click “Ok”, after restarting Eclipse IDE, the installation is finished. If user install plug-in successfully, the “ARC” icon will show up in “About Eclipse”.
+
+![Figure 15 Plug-in in Eclipse IDE](images/Figure 15 Plug-in in Eclipse IDE.png)
+_Figure 15 Plug-in in Eclipse IDE_ 
+
+Click the “ARC” icon; user will get detailed plug-in features information.  
+
+![Figure 16 About Eclipse ELF32 Plug-in Features](images/Figure 16 About Eclipse ELF32 Plug-in Features.png)
+_Figure 16 About Eclipse ELF32 Plug-in Features_ 
+
+Click the “Installation Details” button, the Features and Plug-ins will also show up.
+
+![Figure 17 ARC GNU plugin Plug-ins](images/Figure 17 ARC GNU plugin Plug-ins.png)
+_Figure 17 ARC GNU plugin Plug-ins_ 
+
+
+![Figure 18 ARC GNU plugin Features](images/Figure 18 ARC GNU plugin Features.png)
+_Figure 18 ARC GNU plugin Features_ 
+
 ## 2.3: Updating existing plugin
 If users want to update the existing plugin, as shown in figure as below, and the version of this current plugin is for example “1.1.0.201402280630”, they can update it by using the same way of plugin installation.
 
+![Figure 18 ARC GNU plugin Features](images/Figure 18 ARC GNU plugin Features.png)
+_Figure 18 ARC GNU plugin Features_ 
+
+![Figure 19 Current ARC GNU IDE plugin](images/Figure 19 Current ARC GNU IDE plugin.png)
+_Figure 19 Current ARC GNU IDE plugin_ 
+
+![Figure 20 Installation of latest plugin](images/Figure 20 Installation of latest plugin.png)
+_Figure 20 Installation of latest plugin_ 
+
+![Figure 21 Updated ARC GNU IDE plugin](images/Figure 21 Updated ARC GNU IDE plugin.png)
+_Figure 21 Updated ARC GNU IDE plugin_ 
+
+![Figure 22 General Information of the latest plugin](images/Figure 22 General Information of the latest plugin.png)
+_Figure 22 General Information of the latest plugin_ 
+
+![Figure 23 Installed details of the latest plugin](images/Figure 23 Installed details of the latest plugin.png)
+_Figure 23 Installed details of the latest plugin_ 
 ## 2.4: Linux installation
 
 If you plan to connect to UART port on target board with RxTx plugin controlled by IDE you need to change permissions of dicrectory /var/lock in your system. Usually by default only users with root access are allowed to write into this directory, however RxTx tries to write file into this directory, so unless you are ready to run IDE with sudo, you need to allow write access to /var/lock directory for everyone. Note that if /var/lock is a symbolic link to another directory then you need to change permissions for this directory as well. For example to set required permissions on Fedora:
