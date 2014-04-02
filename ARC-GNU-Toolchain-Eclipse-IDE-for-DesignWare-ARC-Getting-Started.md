@@ -117,6 +117,16 @@ _Figure 22 General Information of the latest plugin_
 
 ![Figure 23 Installed details of the latest plugin](images/Figure 23 Installed details of the latest plugin.png)
 _Figure 23 Installed details of the latest plugin_ 
+
+![Figure 24 Upate exiting plugins successfully](images/Figure 24 Upate exiting plugins successfully.png)
+_Figure 24 Upate exiting plugins successfully_ 
+
+![Figure 25 Updated ARC GNU plugin Features](images/Figure 25 Updated ARC GNU plugin Features.png)
+_Figure 25 Updated ARC GNU plugin Features_ 
+
+![Figure 26 Updated ARC GNU plugin Plug-ins](images/Figure 26 Updated ARC GNU plugin Plug-ins.png)
+_Figure 26 Updated ARC GNU plugin Plug-ins_ 
+
 ## 2.4: Linux installation
 
 If you plan to connect to UART port on target board with RxTx plugin controlled by IDE you need to change permissions of dicrectory /var/lock in your system. Usually by default only users with root access are allowed to write into this directory, however RxTx tries to write file into this directory, so unless you are ready to run IDE with sudo, you need to allow write access to /var/lock directory for everyone. Note that if /var/lock is a symbolic link to another directory then you need to change permissions for this directory as well. For example to set required permissions on Fedora:
