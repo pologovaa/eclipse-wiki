@@ -46,7 +46,37 @@ _Figure 4 Installation of Eclipse terminal plugin_
 
 ## 2.2: Installing into eclipse
 After downloading arc_gnu_plugins.zip successfully, user also can install it from local by pointing Eclipse to it: Eclipse -> Install New Software -> Add -> Archive -> select arc_gnu_plugins.zip file. Unzip this archived folder, there will be six components in it.
- 
+
+![Figure 5 Install from local PC](images/Figure 5 Install from local PC.png)
+_Figure 5 Install from local PC_ 
+
+![Figure 6 Check GNU ARC C++ Development Support](images/Figure 6 Check GNU ARC C++ Development Support.png)
+_Figure 6 Check GNU ARC C++ Development Support_ 
+
+![Figure 7 Get copyright by clicking  “more”](images/Figure 7 Get copyright by clicking  “more”.png)
+_Figure 7 Get copyright by clicking  “more”_ 
+
+![Figure 8 Get General Information by clicking “more”](images/Figure 8 Get General Information by clicking “more”.png)
+_Figure 8 Get General Information by clicking “more”_ 
+
+
+![Figure 9 Get License Agreement by clicking “more”](images/Figure 9 Get License Agreement by clicking “more”.png)
+_Figure 9 Get License Agreement by clicking “more”_ 
+
+
+![Figure 10 Install Details](images/Figure 10 Install Details.png)
+_Figure 10 Install Details_ 
+
+
+![Figure 10 Install Details](images/Figure 10 Install Details.png)
+_Figure 10 Install Details_ 
+
+![Figure 11 Accept the terms of license agreement](images/Figure 11 Accept the terms of license agreement.png)
+_Figure 11 Accept the terms of license agreement_ 
+
+![Figure 12 Install ARC GNU IDE Plugin](images/Figure 12 Install ARC GNU IDE Plugin.png)
+_Figure 12 Install ARC GNU IDE Plugin_ 
+
 ## 2.3: Updating existing plugin
 If users want to update the existing plugin, as shown in figure as below, and the version of this current plugin is for example “1.1.0.201402280630”, they can update it by using the same way of plugin installation.
 
