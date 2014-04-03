@@ -454,4 +454,5 @@ $INSTALL_DIR\share\openocd\scripts\target\snps_starter_kit_arc-em_eb.cfg
     ![Debug configuration window for big endian application](images/Debug configuration window for big endian application.png)
 
     _Debug configuration window for big endian application_ 
+
 The EM Starter Kit will now use the selected big-endian FPGA image until the board is powered off or until reconfiguration by pressing the FPGA configuration button located above the “C” in the “ARC” log on the board. Refer to EM Starter Kit documentation for more details.
