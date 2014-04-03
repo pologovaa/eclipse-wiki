@@ -157,6 +157,7 @@ If you don’t want or can’t change permissions for this directory then you ne
 2. Enter a project name
 
    ![C Project Creation Dialog](images/C Project Creation Dialog.png)
+
    _C Project Creation Dialog_ 
 
    1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
@@ -166,19 +167,23 @@ The Hello ARC project is an example project that comes with the EM Starter Kit S
 
 3. You can also fill in additional information for a project. Afterwards, click the **Next** button
     ![C project creation - Additional information Dialog](images/C project creation - Additional information Dialog.png)
+
     _C project creation - Additional information Dialog_ 
 4. Select the desired configuration and click **Finish**
     ![C Project creation – Configurations Dialog](images/C Project creation – Configurations Dialog.png)
+
     _C Project creation – Configurations Dialog_ 
 
 The resulting Hello ARC project created in Eclipse is shown in Figure 5.  
 
 ![Final Hello ARC Project in Eclipse ](images/Final Hello ARC Project in Eclipse.png)
+
 _Final Hello ARC Project in Eclipse_ 
 
 File changes could be required depending on version of EM Starter Kit. Users of EM Starter Kit version 1.1 should update file starterkit.h with new values of core and peripherals frequencies. Redefine CPU_CLOCK to 30000000 and PERIPHERAL_CLOCK to 50000000. Resulting file is in shown in Figure 6.
 
 ![File starterkit.h updated for EM Starter Kit 1.1](images/File starterkit.h updated for EM Starter Kit 1.1.png)
+
 _File starterkit.h updated for EM Starter Kit 1.1_ 
 
 
