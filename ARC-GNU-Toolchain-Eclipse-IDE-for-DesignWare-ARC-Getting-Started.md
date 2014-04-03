@@ -53,6 +53,7 @@ _Figure 4 Installation of Eclipse terminal plugin_
 After downloading arc_gnu_plugins.zip successfully, user also can install it from local by pointing Eclipse to it: Eclipse -> Install New Software -> Add -> Archive -> select arc_gnu_plugins.zip file. Unzip this archived folder, there will be six components in it.
 
 ![Figure 5 Install from local PC](images/Figure 5 Install from local PC.png)
+
 _Figure 5 Install from local PC_ 
 
 ![Figure 6 Check GNU ARC C++ Development Support](images/Figure 6 Check GNU ARC C++ Development Support.png)
