@@ -151,11 +151,13 @@ If you don’t want or can’t change permissions for this directory then you ne
 1. Select **File >New >C Project** 
 ![Creating a new C project](images/Creating a new C project.png)
 _Creating a new C project_ 
+
 The **C Project** dialog has two ARC project types:  **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static Library**.   
 Please note that different project types have different Tool Setting properties and different default options
 2. Enter a project name
 ![C Project Creation Dialog](images/C Project Creation Dialog.png)
 _C Project Creation Dialog_ 
+
    1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
 The Hello ARC project is an example project that comes with the EM Starter Kit Software and uses the UART on the EM Starter Kit to display output.  Refer to the EM Starter Kit Getting Started for instructions on how to connect to the UART on the EM Starter Kit board using the Serial Terminal plugin.
    2. Select the little endian toolchain from **Toolchains** Pane ( EM Starter Kit configurations are little endian)
