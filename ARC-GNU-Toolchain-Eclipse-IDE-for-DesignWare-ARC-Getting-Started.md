@@ -83,9 +83,9 @@ _Figure 5 Install from local PC_
 
 _Figure 6 Check GNU ARC C++ Development Support_ 
 
-![Figure 7 Get copyright by clicking  “more”](images/Figure 7 Get copyright by clicking  “more”.png)
+![Figure 7 Get copyright by clicking “more”](images/Figure 7 Get copyright by clicking “more”.png)
 
-_Figure 7 Get copyright by clicking  “more”_ 
+_Figure 7 Get copyright by clicking “more”_ 
 
 ![Figure 8 Get General Information by clicking “more”](images/Figure 8 Get General Information by clicking “more”.png)
 
