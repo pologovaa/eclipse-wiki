@@ -4,8 +4,9 @@ The ARC GNU Eclipse IDE consists of the Eclipse IDE combined with an Eclipse CDT
 The ARC GNU IDE supports the development of managed C/C++ applications for ARC processors using the ARC GNU toolchain for bare metal applications (elf32).  
 
 The ARC GNU IDE provides support for the following functionality: 
-* 	Support for Windows Development Host Systems
-* 	Support for the ARC EM Processor development target
+* 	Support for Windows 7, Ubuntu Linux 12.04 LTS and RedHat Enterprise Linux 6.0 Development Host Systems
+* 	Support for the ARC EM and HS Processors
+*	Support for little and big endian configurations
 * 	Ability to create C/C++ projects using the ARC elf32 cross-compilation toolchain
 * 	Configuration of toolchain parameters per project
 * 	Configuration of individual options (such as preprocessor, optimization, warnings, libraries, and debugging levels) for each toolchain component:
