@@ -37,12 +37,15 @@ ARC GNU IDE should be installed in the path no longer than 50 characters and can
 _Run ARC_GNU_IDE_1.1.0_win_install.exe_
 
 ![Choose installer paths](images/Choose installer paths.png)
+
 _Choose installer paths_
 
 ![Installation Completed](images/Installation Completed.png)
+
 _Installation Completed_
 
 ![Click “Show details” button](images/Click “Show details” button.png)
+
 _Click “Show details” button_
 
 ## 2.3 Downloading latest plugins
