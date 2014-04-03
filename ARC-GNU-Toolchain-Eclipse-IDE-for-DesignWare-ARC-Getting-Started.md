@@ -353,7 +353,7 @@ The EM Starter Kit comes with 4 pre-installed little endian configurations.   Us
     ![J8 Jumper in factory default position](images/J8 Jumper in factory default position.png)
     _J8 Jumper in factory default position_ 
 
-After closing the jumper: 
+    After closing the jumper: 
     ![J8 Jumper in closed position](images/J8 Jumper in closed position.png)
     _J8 Jumper in closed position_ 
 
