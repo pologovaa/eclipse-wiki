@@ -158,10 +158,12 @@ If you don’t want or can’t change permissions for this directory then you ne
 
    ![C Project Creation Dialog](images/C Project Creation Dialog.png)
    _C Project Creation Dialog_ 
-        1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
+
+   1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
 The Hello ARC project is an example project that comes with the EM Starter Kit Software and uses the UART on the EM Starter Kit to display output.  Refer to the EM Starter Kit Getting Started for instructions on how to connect to the UART on the EM Starter Kit board using the Serial Terminal plugin.
-        2. Select the little endian toolchain from **Toolchains** Pane ( EM Starter Kit configurations are little endian)
-       3. Click the **Next** button.
+    2. Select the little endian toolchain from **Toolchains** Pane ( EM Starter Kit configurations are little endian)
+    3. Click the **Next** button.
+
 3. You can also fill in additional information for a project. Afterwards, click the **Next** button
     ![C project creation - Additional information Dialog](images/C project creation - Additional information Dialog.png)
     _C project creation - Additional information Dialog_ 
@@ -289,50 +291,50 @@ _Debug Perspective_
 
 1. To set a breakpoint, place your cursor on the marker bar along the left edge of the editor window on the line where you want the breakpoint:
 
-![Source File Window in Debug Perspective with Breakpoint Set](images/Source File Window in Debug Perspective with Breakpoint Set.png)
-_Source File Window in Debug Perspective with Breakpoint Set_ 
+    ![Source File Window in Debug Perspective with Breakpoint Set](images/Source File Window in Debug Perspective with Breakpoint Set.png)
+    _Source File Window in Debug Perspective with Breakpoint Set_ 
 
 2. Examine Variables, Breakpoints, Expressions or Registers from different tabs of the same debug perspective: 
 
-![Registers Window in Debug Perspective](images/Registers Window in Debug Perspective.png)
-_Registers Window in Debug Perspective_ 
+    ![Registers Window in Debug Perspective](images/Registers Window in Debug Perspective.png)
+    _Registers Window in Debug Perspective_ 
 
 3. Examine the debug Views showing the debugger in use:
 
-![Debug Window in Debug Perspective](images/Debug Window in Debug Perspective.png)
-_Debug Window in Debug Perspective_ 
+    ![Debug Window in Debug Perspective](images/Debug Window in Debug Perspective.png)
+    _Debug Window in Debug Perspective_ 
 
-![Hello ARC Debug Console in Debug Perspective](images/Hello ARC Debug Console in Debug Perspective.png)
-_Hello ARC Debug Console in Debug Perspective_ 
+    ![Hello ARC Debug Console in Debug Perspective](images/Hello ARC Debug Console in Debug Perspective.png)
+    _Hello ARC Debug Console in Debug Perspective_ 
 
 4. Switch Console tabs to view OpenOCD **Console** output:  
 
-![Multiple Consoles in the Debug Perspective](images/Multiple Consoles in the Debug Perspective.png)
-_Multiple Consoles in the Debug Perspective_ 
+    ![Multiple Consoles in the Debug Perspective](images/Multiple Consoles in the Debug Perspective.png)
+    _Multiple Consoles in the Debug Perspective_ 
 
-![Hello ARC Debug Console Output](images/Hello ARC Debug Console Output.png)
-_Hello ARC Debug Console Output_ 
+    ![Hello ARC Debug Console Output](images/Hello ARC Debug Console Output.png)
+    _Hello ARC Debug Console Output_ 
 
-![OpenOCD Console Output](images/OpenOCD Console Output.png)
-_OpenOCD Console Output_ 
+    ![OpenOCD Console Output](images/OpenOCD Console Output.png)
+    _OpenOCD Console Output_ 
 
 5. Step through each line by using F5 (step into), and F6 (step over). 
 
-![Stepping Toolbar](images/Stepping Toolbar.png)
-_Stepping Toolbar_ 
+    ![Stepping Toolbar](images/Stepping Toolbar.png)
+    _Stepping Toolbar_ 
 
 6. Toggle breakpoint at the last line of main(), which is "}" , and then clicking Resume or pressing F8.
 
-![Click Resume or Press F8](images/Click Resume or Press F8.png)
-_Click Resume or Press F8_ 
+    ![Click Resume or Press F8](images/Click Resume or Press F8.png)
+    _Click Resume or Press F8_ 
 
-![Final Output Printed to Serial Terminal Window through UART](images/Final Output Printed to Serial Terminal Window through UART.png)
-_Final Output Printed to Serial Terminal Window through UART_ 
-
+    ![Final Output Printed to Serial Terminal Window through UART](images/Final Output Printed to Serial Terminal Window through UART.png)
+    _Final Output Printed to Serial Terminal Window through UART_ 
+ 
 7. Terminate all external tools before you quit current debugging process.
 
-![Consoles for child processes](images/Consoles for child processes.png)
-_Consoles for child processes_ 
+    ![Consoles for child processes](images/Consoles for child processes.png)
+    _Consoles for child processes_ 
 
 
 # Appendix: Debugging a big-endian Application
@@ -342,24 +344,24 @@ The EM Starter Kit comes with 4 pre-installed little endian configurations.   Us
 1. Ensure that EM SK is powered ON and connected to the host PC
 2. On the EM Starter Kit, close jumper J8 as shown in images below: 
 
-![J8 Jumper in factory default position](images/J8 Jumper in factory default position.png)
-_J8 Jumper in factory default position_ 
+    ![J8 Jumper in factory default position](images/J8 Jumper in factory default position.png)
+    _J8 Jumper in factory default position_ 
 
 After closing the jumper: 
-![J8 Jumper in closed position](images/J8 Jumper in closed position.png)
-_J8 Jumper in closed position_ 
+    ![J8 Jumper in closed position](images/J8 Jumper in closed position.png)
+    _J8 Jumper in closed position_ 
 
 3. Dowload the Digilent Adept 2.13.1 System Software for Windows from 
  http://www.digilentinc.com/Products/Detail.cfm?Prod=ADEPT2
 4. Open the "Adept" utility
 
-![Adept Utility before Initializing Chain](images/Adept Utility before Initializing Chain.png)
-_Adept Utility before Initializing Chain_ 
+    ![Adept Utility before Initializing Chain](images/Adept Utility before Initializing Chain.png)
+    _Adept Utility before Initializing Chain_ 
 
 5. Press "Initialize chain". There should be only one device in a chain: XC6SLX45.  
 
-![XC6SLX45 Device shown after Initialization](images/XC6SLX45 Device shown after Initialization.png)
-_XC6SLX45 Device shown after Initialization_ 
+    ![XC6SLX45 Device shown after Initialization](images/XC6SLX45 Device shown after Initialization.png)
+    _XC6SLX45 Device shown after Initialization_ 
 
 6. Press "Browse" button and navigate to location of your big endian .bit file 
 7. Press "Program" button.
