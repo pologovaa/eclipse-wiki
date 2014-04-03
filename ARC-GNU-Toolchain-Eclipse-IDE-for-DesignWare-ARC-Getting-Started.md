@@ -31,6 +31,20 @@ ARC GNU plugins for Eclipse have following requirements to the system:
 
 ## 2.2 Using installer for Windows
 
+ARC GNU IDE should be installed in the path no longer than 50 characters and cannot contain white spaces. 
+
+![Run ARC_GNU_IDE_1.1.0_win_install.exe](images/Run ARC_GNU_IDE_1.1.0_win_install.exe.png)
+_Run ARC_GNU_IDE_1.1.0_win_install.exe_
+
+![Choose installer paths](images/Choose installer paths.png)
+_Choose installer paths_
+
+![Installation Completed](images/Installation Completed.png)
+_Installation Completed_
+
+![Click “Show details” button](images/Click “Show details” button.png)
+_Click “Show details” button_
+
 ## 2.3 Downloading latest plugins
 
 User can get this plug-in from website URL https://github.com/foss-for-synopsys-dwc-arc-processors/arc_gnu_eclipse/releases, this is an archived version of the GNU ARC Eclipse plug-in update site, the file name is arc_gnu_plugins.zip
