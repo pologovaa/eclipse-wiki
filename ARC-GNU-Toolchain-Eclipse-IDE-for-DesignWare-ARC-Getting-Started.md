@@ -422,12 +422,12 @@ The EM Starter Kit comes with 4 pre-installed little endian configurations.   Us
 1. Ensure that EM SK is powered ON and connected to the host PC
 2. On the EM Starter Kit, close jumper J8 as shown in images below: 
 
-    ![J8 Jumper in factory default position](images/J8 Jumper in factory default position.png)
+    ![J8 Jumper in factory default position](images/J8 Jumper in factory default position.jpg)
 
     _J8 Jumper in factory default position_ 
 
     After closing the jumper: 
-    ![J8 Jumper in closed position](images/J8 Jumper in closed position.png)
+    ![J8 Jumper in closed position](images/J8 Jumper in closed position.jpg)
 
     _J8 Jumper in closed position_ 
 
