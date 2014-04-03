@@ -155,18 +155,19 @@ If you don’t want or can’t change permissions for this directory then you ne
     The **C Project** dialog has two ARC project types:  **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static Library**.   
     Please note that different project types have different Tool Setting properties and different default options
 2. Enter a project name
+
    ![C Project Creation Dialog](images/C Project Creation Dialog.png)
    _C Project Creation Dialog_ 
-      1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
+        1. Select **Hello World ARC C Project** under **ARC Cross ELF32 Target Application**.   
 The Hello ARC project is an example project that comes with the EM Starter Kit Software and uses the UART on the EM Starter Kit to display output.  Refer to the EM Starter Kit Getting Started for instructions on how to connect to the UART on the EM Starter Kit board using the Serial Terminal plugin.
-      2. Select the little endian toolchain from **Toolchains** Pane ( EM Starter Kit configurations are little endian)
-     3. Click the **Next** button.
+        2. Select the little endian toolchain from **Toolchains** Pane ( EM Starter Kit configurations are little endian)
+       3. Click the **Next** button.
 3. You can also fill in additional information for a project. Afterwards, click the **Next** button
-![C project creation - Additional information Dialog](images/C project creation - Additional information Dialog.png)
-_C project creation - Additional information Dialog_ 
+    ![C project creation - Additional information Dialog](images/C project creation - Additional information Dialog.png)
+    _C project creation - Additional information Dialog_ 
 4. Select the desired configuration and click **Finish**
-![C Project creation – Configurations Dialog](images/C Project creation – Configurations Dialog.png)
-_C Project creation – Configurations Dialog_ 
+    ![C Project creation – Configurations Dialog](images/C Project creation – Configurations Dialog.png)
+    _C Project creation – Configurations Dialog_ 
 
 The resulting Hello ARC project created in Eclipse is shown in Figure 5.  
 
@@ -184,29 +185,29 @@ Follow the steps below to configure the ARC GNU toolchain:
 
 1. Right click on the Hello ARC project and select **Properties** from the pop-up menu:
 
-![Configuring the toolchain for the project](images/Configuring the toolchain for the project.png)
-_Configuring the toolchain for the project_ 
+    ![Configuring the toolchain for the project](images/Configuring the toolchain for the project.png)
+    _Configuring the toolchain for the project_ 
 
 2. Select desired options for each tool under the Tool Settings tab:
 
-![Toolchain Configuration](images/Toolchain Configuration.png)
-_Toolchain Configuration_ 
+    ![Toolchain Configuration](images/Toolchain Configuration.png)
+    _Toolchain Configuration_ 
 
-Various options can be selected for the compiler, assembler and linker components of the toolchain as desired.  
+    Various options can be selected for the compiler, assembler and linker components of the toolchain as desired.  
 
-Once the configuration options have been selected, click **Apply** and then **OK** to save the toolchain configuration. 
+    Once the configuration options have been selected, click **Apply** and then **OK** to save the toolchain configuration. 
  
 ## Step 3: Building a Project
 
 1. Right click on the _Hello ARC project_ and select **Build Project** from the pop-up menu
 
-![Building a Project](images/Building a Project.png)
-_Building a Project_ 
+    ![Building a Project](images/Building a Project.png)
+    _Building a Project_ 
 
 2. Review the build output log in the Eclipse console tab to confirm success:
 
-![Build Output](images/Build Output.png)
-_Build Output_ 
+    ![Build Output](images/Build Output.png)
+    _Build Output_ 
 
 #  Debugging a C Project
 
@@ -218,67 +219,67 @@ To debug the project, create a new debug configuration using _arc-elf32-gdb_.
 
 1. Select **Debug Configurations**  from the  **Run**  menu or by clicking on the down arrow next to the bug icon: 
 
-![Debug Configurations](images/Debug Configurations.png)
-_Debug Configurations_ 
+    ![Debug Configurations](images/Debug Configurations.png)
+    _Debug Configurations_ 
 
 2. Double click on the **ARC C/C++ Application**  or click on the top left icon to create a new debug configuration for the project:
 
-![ARC Embedded Debug Configurations](images/ARC Embedded Debug Configurations.png)
-_ARC Embedded Debug Configurations_ 
+    ![ARC Embedded Debug Configurations](images/ARC Embedded Debug Configurations.png)
+    _ARC Embedded Debug Configurations_ 
 
 3. Select a name for the new debug configuration (by default, it equals the project name followed by “Debug”).
 
-![New debug Configuration](images/New debug Configuration.png)
-_New debug Configuration_ 
+    ![New debug Configuration](images/New debug Configuration.png)
+    _New debug Configuration_ 
 
 4. Click the **Debugger** tab.
 
-![Default values in the Debugger tab for JTAG via OpenOCD](images/Default values in the Debugger tab for JTAG via OpenOCD.png)
-_Default values in the Debugger tab for JTAG via OpenOCD_ 
+    ![Default values in the Debugger tab for JTAG via OpenOCD](images/Default values in the Debugger tab for  JTAG via OpenOCD.png)
+    _Default values in the Debugger tab for JTAG via OpenOCD_ 
 
-![Default values in the GDBserver Debugger Options tab](images/Default values in the GDBserver Debugger Options tab.png)
-_Default values in the GDBserver Debugger Options tab_ 
+    ![Default values in the GDBserver Debugger Options tab](images/Default values in the GDBserver Debugger Options tab.png)
+    _Default values in the GDBserver Debugger Options tab_ 
 
 
-Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM Starter Kit. Select the **nSIM** for use simulator without hardware be connected.  
+    Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM Starter Kit. Select the **nSIM** for use simulator without hardware be connected.  
 
-The “**COM Ports**” **picklist** shows the value for Digilent USB Serial Port from the Windows registry. You can modify the value as desired, but the selection must match the port number in Device and Printers as shown in below.
+    The “**COM Ports**” **picklist** shows the value for Digilent USB Serial Port from the Windows registry. You can modify the value as desired, but the selection must match the port number in Device and Printers as shown in below.
 
-![Digilent USB Serial COM Port](images/Digilent USB Serial COM Port.png)
-_Digilent USB Serial COM Port_ 
+    ![Digilent USB Serial COM Port](images/Digilent USB Serial COM Port.png)
+    _Digilent USB Serial COM Port_ 
 
-![USB Serial COM Port](images/USB Serial COM Port.png)
-_USB Serial COM Port_ 
+    ![USB Serial COM Port](images/USB Serial COM Port.png)
+    _USB Serial COM Port_ 
 
 5. Click the **Commands** tab.
 
-![Default values in the Commands tab](images/Default values in the Commands tab.png)
-_Default values in the Commands tab_ 
+    ![Default values in the Commands tab](images/Default values in the Commands tab.png)
+    _Default values in the Commands tab_ 
 
-The default **“Initialize”** and **“Run”** commands is null, you can use them directly, or modify the list as desired. 
+    The default **“Initialize”** and **“Run”** commands is null, you can use them directly, or modify the list as desired. 
    
 6. Click the **Debug **button in the **Debug configurations** dialog to initiate debug session. 
 
-This action automatically launches the Serial terminal and OpenOCD applications in the background and connects to the UART on the EM Starter Kit board. After checking the “Allocate console (necessary for input)" in **Common Tab**, OpenOCD startup log messages will appear in the console. 
+    This action automatically launches the Serial terminal and OpenOCD applications in the background and   connects to the UART on the EM Starter Kit board. After checking the “Allocate console (necessary for input)" in **Common Tab**, OpenOCD startup log messages will appear in the console. 
 
-![Check “Allocate console” in Common Tab](images/Check “Allocate console” in Common Tab.png)
-_Check “Allocate console” in Common Tab_ 
+    ![Check “Allocate console” in Common Tab](images/Check “Allocate console” in Common Tab.png)
+    _Check “Allocate console” in Common Tab_ 
 
 7. Click **Yes** in the confirmation dialog to switch to the Debug perspective
 
-![Perspective Switch](images/Perspective Switch.png)
-_Perspective Switch_ 
+    ![Perspective Switch](images/Perspective Switch.png)
+    _Perspective Switch_ 
 
-![Launch of OpenOCD](images/Launch of OpenOCD.png)
-_Launch of OpenOCD_ 
+    ![Launch of OpenOCD](images/Launch of OpenOCD.png)
+    _Launch of OpenOCD_ 
 
-![Launch of Serial terminal](images/Launch of Serial terminal.png)
-_Launch of Serial terminal_ 
+    ![Launch of Serial terminal](images/Launch of Serial terminal.png)
+    _Launch of Serial terminal_ 
 
 8. Click the **Debug** button in the **Debug configurations** dialog to initiate the debug session:
 
-![Debugging Process](images/Debugging Process.png)
-_Debugging Process_ 
+    ![Debugging Process](images/Debugging Process.png)
+    _Debugging Process_ 
 
 ## Step 2: Debugging an Application
 The **Debug** perspective provides an integrated debug environment with individual windows to display various debugging data such as the debug stack, variables, registers  breakpoints, etc. 
