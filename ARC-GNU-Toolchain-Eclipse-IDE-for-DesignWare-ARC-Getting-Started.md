@@ -4,8 +4,9 @@ The ARC GNU Eclipse IDE consists of the Eclipse IDE combined with an Eclipse CDT
 The ARC GNU IDE supports the development of managed C/C++ applications for ARC processors using the ARC GNU toolchain for bare metal applications (elf32).  
 
 The ARC GNU IDE provides support for the following functionality: 
-* 	Support for Windows Development Host Systems
-* 	Support for the ARC EM Processor development target
+* 	Support for Windows 7, Ubuntu Linux 12.04 LTS and RedHat Enterprise Linux 6.0 Development Host Systems
+* 	Support for the ARC EM and HS Processors
+*	Support for little and big endian configurations
 * 	Ability to create C/C++ projects using the ARC elf32 cross-compilation toolchain
 * 	Configuration of toolchain parameters per project
 * 	Configuration of individual options (such as preprocessor, optimization, warnings, libraries, and debugging levels) for each toolchain component:
@@ -30,6 +31,24 @@ ARC GNU plugins for Eclipse have following requirements to the system:
 * 	Java VM version >= 1.6 is required
 
 ## 2.2 Using installer for Windows
+
+ARC GNU IDE should be installed in the path no longer than 50 characters and cannot contain white spaces. 
+
+![Run ARC_GNU_IDE_1.1.0_win_install.exe](images/Run ARC_GNU_IDE_1.1.0_win_install.exe.png)
+
+_Run ARC_GNU_IDE_1.1.0_win_install.exe_
+
+![Choose installer paths](images/Choose installer paths.png)
+
+_Choose installer paths_
+
+![Installation Completed](images/Installation Completed.png)
+
+_Installation Completed_
+
+![Click “Show details” button](images/Click “Show details” button.png)
+
+_Click “Show details” button_
 
 ## 2.3 Downloading latest plugins
 
