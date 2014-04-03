@@ -154,6 +154,7 @@ _Creating a new C project_
 
 The **C Project** dialog has two ARC project types:  **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static Library**.   
 Please note that different project types have different Tool Setting properties and different default options
+
 2. Enter a project name
 ![C Project Creation Dialog](images/C Project Creation Dialog.png)
 _C Project Creation Dialog_ 
