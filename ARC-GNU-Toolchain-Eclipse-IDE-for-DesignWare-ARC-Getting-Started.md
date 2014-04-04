@@ -292,7 +292,7 @@ To debug the project, create a new debug configuration using _arc-elf32-gdb_.
 
 4. Click the **Debugger** tab.
 
-    ![Default values in the Debugger tab for JTAG via OpenOCD](images/Default values in the Debugger tab for  JTAG via OpenOCD.png)
+    ![Default values in the Debugger tab for JTAG via OpenOCD](images/Default values in the Debugger tab for JTAG via OpenOCD.png)
 
     _Default values in the Debugger tab for JTAG via OpenOCD_ 
 
