@@ -434,6 +434,7 @@ The C Project dialog has five ARC project types on Linux:  ARC Cross ELF32 Targe
 ##Step 2: Choosing toolchain
 
 1. Choose proper toolchain for ELF32 or uClibc project type.
+
 ![ElF32 supported toolchain on Linux](images/ElF32 supported toolchain on Linux.png)
 
      _ElF32 supported toolchain on Linux_ 
