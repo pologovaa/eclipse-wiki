@@ -22,7 +22,7 @@ Note: Before you begin, refer to the EM Starter Kit and ARC GDB Getting Started 
 
 # Installation
 
-## 2.1 Prerequisites
+## Prerequisites
 ARC GNU plugins for Eclipse have following requirements to the system:
 * 	Eclipse version 4.3 (Kepler)
 * 	CDT version 8.2.1
@@ -30,7 +30,7 @@ ARC GNU plugins for Eclipse have following requirements to the system:
 * 	On Linux both 32bit and 64-bit versions of Eclipse are supported, on Windows only 32-bit Eclipse installations are supported.  Eclipse 64-bit installation is not supported, so it is required to run 32-bit version of Eclipse on 64-bit Windows versions, to overcome this limitation.
 * 	Java VM version >= 1.6 is required
 
-## 2.2 Using installer for Windows
+## Using installer for Windows
 
 ARC GNU IDE should be installed in the path no longer than 50 characters and cannot contain white spaces. 
 
@@ -50,7 +50,7 @@ _Installation Completed_
 
 _Click “Show details” button_
 
-## 2.3 Downloading latest plugins
+## Downloading latest plugins
 
 User can get this plug-in from website URL https://github.com/foss-for-synopsys-dwc-arc-processors/arc_gnu_eclipse/releases, this is an archived version of the GNU ARC Eclipse plug-in update site, the file name is arc_gnu_plugins.zip
 
@@ -72,7 +72,7 @@ To run ARC_GNU_IDE plugins, you need to install Target Terminal plugin. The url 
 
 _Figure 4 Installation of Eclipse terminal plugin_
 
-## 2.4 Installing into eclipse
+## Installing into Eclipse
 After downloading arc_gnu_plugins.zip successfully, user also can install it from local by pointing Eclipse to it: Eclipse -> Install New Software -> Add -> Archive -> select arc_gnu_plugins.zip file. Unzip this archived folder, there will be six components in it.
 
 ![Figure 5 Install from local PC](images/Figure 5 Install from local PC.png)
@@ -137,7 +137,7 @@ _Figure 17 ARC GNU plugin Plug-ins_
 
 _Figure 18 ARC GNU plugin Features_ 
 
-## 2.5 Updating existing plugin
+## Updating existing plugin
 
 If users want to update the existing plugin, as shown in figure as below, and the version of this current plugin is for example “1.1.0.201402280630”, they can update it by using the same way of plugin installation.
 
@@ -176,7 +176,7 @@ _Figure 25 Updated ARC GNU plugin Features_
 
 _Figure 26 Updated ARC GNU plugin Plug-ins_ 
 
-## 2.6 Linux installation
+## Installing plugin on Linux host
 
 If you plan to connect to UART port on target board with RxTx plugin controlled by IDE you need to change permissions of dicrectory /var/lock in your system. Usually by default only users with root access are allowed to write into this directory, however RxTx tries to write file into this directory, so unless you are ready to run IDE with sudo, you need to allow write access to /var/lock directory for everyone. Note that if /var/lock is a symbolic link to another directory then you need to change permissions for this directory as well. For example to set required permissions on Fedora:
 
@@ -292,7 +292,7 @@ To debug the project, create a new debug configuration using _arc-elf32-gdb_.
 
 4. Click the **Debugger** tab.
 
-    ![Default values in the Debugger tab for JTAG via OpenOCD](images/Default values in the Debugger tab for  JTAG via OpenOCD.png)
+    ![Default values in the Debugger tab for JTAG via OpenOCD](images/Default values in the Debugger tab for JTAG via OpenOCD.png)
 
     _Default values in the Debugger tab for JTAG via OpenOCD_ 
 
