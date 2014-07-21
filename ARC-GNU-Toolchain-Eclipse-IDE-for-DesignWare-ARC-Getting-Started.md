@@ -423,6 +423,27 @@ _Debug Perspective_
      _Choosing nSIM on debug tab_ 
 
 #  Building and Debugging Linux uClibc applications
+The C Project dialog has five ARC project types on Linux:  ARC Cross ELF32 Target Application, ARC Cross ELF32 Target Static Library,   ARC Cross uClibc Target Application, ARC Cross uClibc Target Shared Library and ARC Cross uClibc Target Static Library.
+
+##Step 1: Creating a New C Project
+
+ ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
+
+     _C Project Tyes on Linux_ 
+##Step 2: Choosing toolchain
+
+![ElF32 supported toolchain on Linux](images/ElF32 supported toolchain on Linux.png)
+
+     _ElF32 supported toolchain on Linux_ 
+
+![uClibc supported toolchain](images/uClibc supported toolchain.png)
+
+     _uClibc supported toolchain_ 
+
+##Step 3: Setting compile options based on CPU core
+##Step 4: Compiling a uClibc application
+##Step 4: Compiling a uClibc Shared Library
+##Step 5: Compiling a uClibc Static Library
 # Appendix: Debugging a big-endian Application
 
 The EM Starter Kit comes with 4 pre-installed little endian configurations.   User wishing to work with big endian configuration can use the procedure below to program a big endian .bit file, using the Digilent Adept Software. Big endian .bit file is not a part of the EM Starter Kit Software package, Synopsys will provide it on request. 
