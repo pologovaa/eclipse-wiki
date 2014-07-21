@@ -1,6 +1,8 @@
 TOC
 ===
 
+* [Building and Debugging Linux uClibc applications]
+  (Building-and-Debugging-Linux-uClibc-applications.md)
 * [Debugging a big-endian application on EM Starter Kit]
   (Debugging-a-big-endian-Application-on-EM-Starter-Kit)
 
@@ -428,25 +430,4 @@ _Debug Perspective_
    ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
 
      _Choosing nSIM on debug tab_ 
-
-#  Building and Debugging Linux uClibc applications
-The C Project dialog has five ARC project types on Linux:  ARC Cross ELF32 Target Application, ARC Cross ELF32 Target Static Library,   ARC Cross uClibc Target Application, ARC Cross uClibc Target Shared Library and ARC Cross uClibc Target Static Library.
-
-##Step 1: Creating a New C Project
-
-1. Select File >New >C Project 
- ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
-
-     _C Project Tyes on Linux_ 
-##Step 2: Choosing toolchain
-
-1. Choose proper toolchain for uClibc project type.
-![uClibc supported toolchain](images/uClibc supported toolchain.png)
-
-     _uClibc supported toolchain_ 
-
-##Step 3: Setting compile options based on CPU core
-##Step 4: Compiling a uClibc application
-##Step 5: Compiling a uClibc Shared Library
-##Step 6: Compiling a uClibc Static Library
 
