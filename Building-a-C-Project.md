@@ -28,13 +28,13 @@ The Hello ARC project is an example project that comes with the EM Starter Kit S
 
     _C Project creation – Configurations Dialog_
 
-The resulting Hello ARC project created in Eclipse is shown in Figure 5.
+The resulting Hello ARC project created in Eclipse is:
 
 ![Final Hello ARC Project in Eclipse ](images/Final Hello ARC Project in Eclipse.png)
 
 _Final Hello ARC Project in Eclipse_
 
-File changes could be required depending on version of EM Starter Kit. Users of EM Starter Kit version 1.1 should update file starterkit.h with new values of core and peripherals frequencies. Redefine CPU_CLOCK to 30000000 and PERIPHERAL_CLOCK to 50000000. Resulting file is in shown in Figure 6.
+File changes could be required depending on version of EM Starter Kit. Users of EM Starter Kit version 1.1 should update file starterkit.h with new values of core and peripherals frequencies. Redefine CPU_CLOCK to 30000000 and PERIPHERAL_CLOCK to 50000000.
 
 ![File starterkit.h updated for EM Starter Kit 1.1](images/File starterkit.h updated for EM Starter Kit 1.1.png)
 
