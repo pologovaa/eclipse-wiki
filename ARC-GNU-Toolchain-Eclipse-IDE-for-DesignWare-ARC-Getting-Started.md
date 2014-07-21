@@ -427,13 +427,13 @@ The C Project dialog has five ARC project types on Linux:  ARC Cross ELF32 Targe
 
 ##Step 1: Creating a New C Project
 
-Select File >New >C Project 
+1. Select File >New >C Project 
  ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
 
      _C Project Tyes on Linux_ 
 ##Step 2: Choosing toolchain
 
-Please note that ELF32 and uClibc support different toolchain on Linux.
+1. Choose proper toolchain for ELF32 or uClibc project type.
 ![ElF32 supported toolchain on Linux](images/ElF32 supported toolchain on Linux.png)
 
      _ElF32 supported toolchain on Linux_ 
