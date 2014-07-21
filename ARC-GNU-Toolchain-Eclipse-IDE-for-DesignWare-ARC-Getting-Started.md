@@ -1,6 +1,7 @@
 TOC
 ===
 
+* [Debugging with nSIM](Debugging-with-nSIM)
 * [Building and Debugging Linux uClibc applications]
   (Building-and-Debugging-Linux-uClibc-applications.md)
 * [Debugging a big-endian application on EM Starter Kit]
@@ -422,12 +423,4 @@ _Debug Perspective_
     ![Consoles for child processes](images/Consoles for child processes.png)
 
     _Consoles for child processes_ 
-
-#  Debugging with nSIM
-
-1. Choosing nSIM gdbserver under Debug Configuration
-
-   ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
-
-     _Choosing nSIM on debug tab_ 
 
