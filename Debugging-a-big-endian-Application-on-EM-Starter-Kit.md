@@ -8,7 +8,8 @@ will provide it on request.
 
 2. On the EM Starter Kit, close jumper J8 as shown in images below:
 
-    ![J8 Jumper in factory default position](images/J8 Jumper in factory default position.jpg)
+    ![J8 Jumper in factory default position]
+    (images/J8 Jumper in factory default position.jpg)
 
     _J8 Jumper in factory default position_
 
@@ -17,18 +18,20 @@ will provide it on request.
 
     _J8 Jumper in closed position_
 
-3. Dowload the Digilent Adept 2.13.1 System Software for Windows from
+3. Download the Digilent Adept 2.13.1 System Software for Windows from
  http://www.digilentinc.com/Products/Detail.cfm?Prod=ADEPT2
 
 4. Open the "Adept" utility
 
-    ![Adept Utility before Initializing Chain](images/Adept Utility before Initializing Chain.png)
+    ![Adept Utility before Initializing Chain]
+    (images/Adept Utility before Initializing Chain.png)
 
     _Adept Utility before Initializing Chain_
 
 5. Press "Initialize chain". There should be only one device in a chain: XC6SLX45.
 
-    ![XC6SLX45 Device shown after Initialization](images/XC6SLX45 Device shown after Initialization.png)
+    ![XC6SLX45 Device shown after Initialization]
+    (images/XC6SLX45 Device shown after Initialization.png)
 
     _XC6SLX45 Device shown after Initialization_
 
@@ -41,7 +44,8 @@ will provide it on request.
 9. In Debug Configuration panel, select big endian configuration file under
 `$INSTALL_DIR\share\openocd\scripts\target\snps_starter_kit_arc-em_eb.cfg`
 
-    ![Debug configuration window for big endian application](images/Debug configuration window for big endian application.png)
+    ![Debug configuration window for big endian application]
+    (images/Debug configuration window for big endian application.png)
 
     _Debug configuration window for big endian application_
 

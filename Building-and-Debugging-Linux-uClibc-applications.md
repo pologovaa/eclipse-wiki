@@ -10,7 +10,7 @@ Creating a New C Project
 1. Select File >New >C Project
     ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
 
-    _C Project Tyes on Linux_
+    _C Project Types on Linux_
 
 
 Choosing toolchain

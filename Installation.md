@@ -2,7 +2,7 @@ Prerequisites
 -------------
 
 ARC GNU plugins for Eclipse have following requirements to the system:
-* Eclipse version 4.3 (Kepler)
+* Eclipse version >= 4.3
 * CDT version 8.2.1
 * OS: RHEL 6 or Windows 7
 * On Linux both 32bit and 64-bit versions of Eclipse are supported, on Windows
@@ -60,7 +60,7 @@ _Figure 2 Components of arc_gnu_plugins.zip features_
 _Figure 3 Components of arc_gnu_plugins.zip_plugins_
 
 To run ARC_GNU_IDE plugins, you need to install Target Terminal plugin. The url
-for Kepler’s update site is <http://download.eclipse.org/releases/kepler>, then
+for Luna's update site is <http://download.eclipse.org/releases/luna>, then
 select: Mobile and Device Development, especially Target Management Terminal
 which is "An ANSI (vt102) compatible Terminal including plug-ins for Serial,
 SSH and Telnet connections."
@@ -210,7 +210,7 @@ Installing plugin on Linux host
 -------------------------------
 
 If you plan to connect to UART port on target board with RxTx plugin controlled
-by IDE you need to change permissions of dicrectory /var/lock in your system.
+by IDE you need to change permissions of directory /var/lock in your system.
 Usually by default only users with root access are allowed to write into this
 directory, however RxTx tries to write file into this directory, so unless you
 are ready to run IDE with sudo, you need to allow write access to /var/lock
@@ -226,6 +226,6 @@ example to set required permissions on Fedora:
     $ ls -ld /run/lock/
     drwxrwxrwx. 8 root root 160 Mar 28 17:32 /run/lock/
 
-If you don’t want or can’t change permissions for this directory then you need
+If you don't want or can't change permissions for this directory then you need
 to disable serial port in debugger configuration window.
 

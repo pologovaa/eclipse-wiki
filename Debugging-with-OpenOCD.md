@@ -94,7 +94,8 @@ initiate debug session.
 
     _Launch of Serial terminal_
 
-8. Click the **Debug** button in the **Debug configurations** dialog to initiate the debug session:
+8. Click the **Debug** button in the **Debug configurations** dialog to
+initiate the debug session:
 
     ![Debugging Process](images/Debugging Process.png)
 
@@ -162,7 +163,8 @@ of the same debug perspective:
 
     _Stepping Toolbar_
 
-6. Toggle breakpoint at the last line of main(), which is "}" , and then clicking Resume or pressing F8.
+6. Toggle breakpoint at the last line of main(), which is "}" , and then
+clicking Resume or pressing F8.
 
     ![Click Resume or Press F8](images/Click Resume or Press F8.png)
 

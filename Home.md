@@ -9,7 +9,7 @@ using the ARC GNU toolchain for bare metal applications (elf32).
 
 The ARC GNU IDE provides support for the following functionality:
 
-* Support for Windows 7, Ubuntu Linux 12.04 LTS and RedHat Enterprise Linux 6.0
+* Support for Windows 7, Ubuntu Linux 14.04 LTS and RedHat Enterprise Linux 6.0
 Development Host Systems
 
 * Support for the ARC EM and HS Processors
