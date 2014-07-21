@@ -36,10 +36,10 @@ Development Host Systems
 * GDB-based debugging using  **Debug**  perspective providing detailed debug
  information (including breakpoints, variables, registers, and disassembly)
 
-Note: Before you begin, refer to the EM Starter Kit and ARC GDB Getting Started
-guide and follow the instructions on how to connect the EM Starter Kit to your
-PC.  This is required for the Eclipse IDE GDB debugger to successfully download
-and debug programs on the target.
+> Before you begin, refer to the EM Starter Kit and ARC GDB Getting Started
+> guide and follow the instructions on how to connect the EM Starter Kit to
+> your PC. This is required for the Eclipse IDE GDB debugger to successfully
+> download and debug programs on the target.
 
 
 Table of Contents
@@ -50,7 +50,7 @@ Table of Contents
 * [Debugging with OpenOCD](Debugging-with-OpenOCD)
 * [Debugging with nSIM](Debugging-with-nSIM)
 * [Building and Debugging Linux uClibc applications]
-  (Building-and-Debugging-Linux-uClibc-applications.md)
+  (Building-and-Debugging-Linux-uClibc-applications)
 * [Debugging a big-endian application on EM Starter Kit]
   (Debugging-a-big-endian-Application-on-EM-Starter-Kit)
 

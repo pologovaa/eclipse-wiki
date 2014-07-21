@@ -67,7 +67,7 @@ project name followed by “Debug”).
     The default **“Initialize”** and **“Run”** commands is null, you can use
     them directly, or modify the list as desired.
 
-6. Click the **Debug **button in the **Debug configurations** dialog to
+6. Click the **Debug** button in the **Debug configurations** dialog to
 initiate debug session.
 
     This action automatically launches the Serial terminal and OpenOCD
