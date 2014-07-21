@@ -418,7 +418,7 @@ _Debug Perspective_
 
    ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
 
-    _Choosing nSIM on debug tab_ 
+     _Consoles for child processes_ 
 
 #  Building and Debugging Linux uClibc applications
 # Appendix: Debugging a big-endian Application
