@@ -427,11 +427,13 @@ The C Project dialog has five ARC project types on Linux:  ARC Cross ELF32 Targe
 
 ##Step 1: Creating a New C Project
 
+Select File >New >C Project 
  ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
 
      _C Project Tyes on Linux_ 
 ##Step 2: Choosing toolchain
 
+Please note that ELF32 and uClibc support different toolchain on Linux.
 ![ElF32 supported toolchain on Linux](images/ElF32 supported toolchain on Linux.png)
 
      _ElF32 supported toolchain on Linux_ 
@@ -442,8 +444,8 @@ The C Project dialog has five ARC project types on Linux:  ARC Cross ELF32 Targe
 
 ##Step 3: Setting compile options based on CPU core
 ##Step 4: Compiling a uClibc application
-##Step 4: Compiling a uClibc Shared Library
-##Step 5: Compiling a uClibc Static Library
+##Step 5: Compiling a uClibc Shared Library
+##Step 6: Compiling a uClibc Static Library
 # Appendix: Debugging a big-endian Application
 
 The EM Starter Kit comes with 4 pre-installed little endian configurations.   User wishing to work with big endian configuration can use the procedure below to program a big endian .bit file, using the Digilent Adept Software. Big endian .bit file is not a part of the EM Starter Kit Software package, Synopsys will provide it on request. 
