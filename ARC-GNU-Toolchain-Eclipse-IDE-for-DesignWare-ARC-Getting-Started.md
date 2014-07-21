@@ -416,9 +416,11 @@ _Debug Perspective_
 
 #  Debugging with nSIM
 
+1. Choosing nSIM gdbserver under Debug Configuration
+
    ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
 
-     _Consoles for child processes_ 
+     _Choosing nSIM on debug tab_ 
 
 #  Building and Debugging Linux uClibc applications
 # Appendix: Debugging a big-endian Application
