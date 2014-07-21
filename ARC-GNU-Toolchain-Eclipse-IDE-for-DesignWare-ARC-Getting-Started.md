@@ -264,7 +264,7 @@ Follow the steps below to configure the ARC GNU toolchain:
 
     _Build Output_ 
 
-#  Debugging a C Project
+#  Debugging with OpenOCD
 
 ## Step 1: Creating a Debug Configuration for the C Project
 
@@ -414,7 +414,13 @@ _Debug Perspective_
 
     _Consoles for child processes_ 
 
+#  Debugging with nSIM
 
+   ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
+
+    _Choosing nSIM on debug tab_ 
+
+#  Building and Debugging Linux uClibc applications
 # Appendix: Debugging a big-endian Application
 
 The EM Starter Kit comes with 4 pre-installed little endian configurations.   User wishing to work with big endian configuration can use the procedure below to program a big endian .bit file, using the Digilent Adept Software. Big endian .bit file is not a part of the EM Starter Kit Software package, Synopsys will provide it on request. 
