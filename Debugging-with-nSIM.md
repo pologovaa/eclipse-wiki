@@ -1,7 +1,7 @@
 1. Creating C project
-   ![C Project for nSIM debugging](images/C Project for nSIM debugging.png)
-    
-   _C Project for nSIM debugging_
+    ![C Project for nSIM debugging](images/C Project for nSIM debugging.png)
+
+    _C Project for nSIM debugging_
 
 2. Choosing nSIM gdbserver under Debug Configuration
    ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
