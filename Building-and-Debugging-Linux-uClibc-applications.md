@@ -29,6 +29,10 @@ User should choose a proper toolchain for a core, for different core supports di
 Compiling a uClibc application
 ------------------------------
 
+    ![Hello_uClibc_Application_HS](images/Hello_uClibc_Application_HS.png)
+
+    _Hello_uClibc_Application_HS_
+
 
 Compiling a uClibc Shared Library
 ---------------------------------
