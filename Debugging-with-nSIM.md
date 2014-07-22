@@ -1,5 +1,6 @@
 1. Creating C project
-    ![C Project for nSIM debugging](images/C Project for nSIM debugging.png)
+    
+  ![C Project for nSIM debugging](images/C Project for nSIM debugging.png)
 
     _C Project for nSIM debugging_
 
