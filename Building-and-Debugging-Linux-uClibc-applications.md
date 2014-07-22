@@ -24,7 +24,7 @@ Choosing toolchain
 
 Setting compile options based on CPU core
 -----------------------------------------
-
+User should choose a proper toolchain for a core, for different core supports different compile options.
 
 Compiling a uClibc application
 ------------------------------
