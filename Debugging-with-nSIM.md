@@ -13,7 +13,15 @@
    In this tab, user need to indicate correct properties file/TCF file for current CPU core. 
    
    ![Choosing proper properties file for nSIM](images/Choosing proper properties file for nSIM.png)
-    
+
+    To see output from the target application, go to **Common** tab and check
+    "Allocate console (necessary for input)".
+
+    ![Check “Allocate console” in Common Tab]
+    (images/Check “Allocate console” in Common Tab.png)
+
+    _Check “Allocate console” in Common Tab_
+
    _Choosing proper properties file for nSIM_
 3. Debugging an ARC EM C project
     
@@ -41,3 +49,4 @@
    ![nSIM gdbserver output in console](images/nSIM gdbserver output in console.png)
      
    _nSIM gdbserver output in console_
+
