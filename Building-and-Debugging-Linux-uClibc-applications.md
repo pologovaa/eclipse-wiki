@@ -28,20 +28,21 @@ User should choose a proper toolchain for a core, for different core supports di
 
 Compiling a uClibc application
 ------------------------------
-
+1. Select File >New >C Project
     ![Hello_uClibc_Application_700](images/Hello_uClibc_Application_700.png)
 
     _Hello_uClibc_Application_700_
-
+2. Getting compiling output in console
     ![Hello_uClibc_Application_700_output](images/Hello_uClibc_Application_700_output.png)
 
     _Hello_uClibc_Application_700_output.png_
 Compiling a uClibc Shared Library
 ---------------------------------
+1. Select File >New >C Project
     ![Hello_uClibc_Staticlib_700](images/Hello_uClibc_Staticlib_700.png)
 
     _Hello_uClibc_Staticlib_700_
-
+2. Getting compiling output in console
     ![Hello_uClibc_Staticlib_700_output](images/Hello_uClibc_Staticlib_700_output.png)
 
     _Hello_uClibc_Staticlib_700_output_
