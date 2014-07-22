@@ -42,7 +42,7 @@ Compiling a uClibc Shared Library
 
     _Hello_uClibc_Staticlib_700_
 
-    ![Hello_uClibc_Staticlib_700_output](images/Hello_uClibc_Staticlib_700.png)
+    ![Hello_uClibc_Staticlib_700_output](images/Hello_uClibc_Staticlib_700_output.png)
 
     _Hello_uClibc_Staticlib_700_output_
 
@@ -52,6 +52,6 @@ Compiling a uClibc Static Library
 
     _Hello_uClibc_Sharedlib_700_
 
-    ![Hello_uClibc_Sharedlib_700_output](images/Hello_uClibc_Sharedlib_700.png)
+    ![Hello_uClibc_Sharedlib_700_output](images/Hello_uClibc_Sharedlib_700_output.png)
 
     _Hello_uClibc_Sharedlib_700_output_
