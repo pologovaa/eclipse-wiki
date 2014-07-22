@@ -36,7 +36,7 @@ Compiling a uClibc application
     ![Hello_uClibc_Application_700_output](images/Hello_uClibc_Application_700_output.png)
 
     _Hello_uClibc_Application_700_output.png_
-Compiling a uClibc Shared Library
+Compiling a uClibc Static Library
 ---------------------------------
 1. Select File >New >C Project
     ![Hello_uClibc_Staticlib_700](images/Hello_uClibc_Staticlib_700.png)
@@ -47,7 +47,7 @@ Compiling a uClibc Shared Library
 
     _Hello_uClibc_Staticlib_700_output_
 
-Compiling a uClibc Static Library
+Compiling a uClibc Shared Library
 ---------------------------------
 1. Select File >New >C Project
     ![Hello_uClibc_Sharedlib_700](images/Hello_uClibc_Sharedlib_700.png)
