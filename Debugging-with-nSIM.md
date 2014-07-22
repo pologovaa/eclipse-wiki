@@ -3,7 +3,10 @@
   ![C Project for nSIM debugging](images/C Project for nSIM debugging.png)
 
     _C Project for nSIM debugging_
+  
+  ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
 
+    _C Project Types on Linux_
 2. Choosing nSIM gdbserver under Debug Configuration
    
    ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
