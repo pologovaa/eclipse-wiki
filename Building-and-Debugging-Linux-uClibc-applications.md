@@ -49,10 +49,11 @@ Compiling a uClibc Shared Library
 
 Compiling a uClibc Static Library
 ---------------------------------
+1. Select File >New >C Project
     ![Hello_uClibc_Sharedlib_700](images/Hello_uClibc_Sharedlib_700.png)
 
     _Hello_uClibc_Sharedlib_700_
-
+2. Getting compiling output in console
     ![Hello_uClibc_Sharedlib_700_output](images/Hello_uClibc_Sharedlib_700_output.png)
 
     _Hello_uClibc_Sharedlib_700_output_
