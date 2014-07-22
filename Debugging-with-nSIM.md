@@ -4,9 +4,6 @@
 
     _C Project for nSIM debugging_
   
-  ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
-
-    _C Project Types on Linux_
 2. Choosing nSIM gdbserver under Debug Configuration
    
    ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
@@ -19,10 +16,27 @@
     
    _Choosing proper properties file for nSIM_
 3. Debugging an ARC EM C project
+    
+   ![Start nSIM gdbserver debugging](images/Start nSIM gdbserver debugging.png)
+    
+   _Start nSIM gdbserver debugging.jpg_  
    
    ![Debugging with nSIM gdbserver](images/Debugging with nSIM gdbserver.png)
     
    _Debugging with nSIM gdbserver_
+
+   ![Debug Window](images/Debug Window.png)
+    
+   _Debug Window_
+
+   ![Open nSIM gdbserver properties](images/Open nSIM gdbserver properties.png)
+     
+   _Open nSIM gdbserver properties_
+
+   ![nSIM gdbserver properties](images/nSIM gdbserver properties.png)
+     
+   _nSIM gdbserver properties_
+
 
    ![nSIM gdbserver output in console](images/nSIM gdbserver output in console.png)
      
