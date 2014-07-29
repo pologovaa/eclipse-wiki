@@ -9,31 +9,23 @@ using the ARC GNU toolchain for bare metal applications (elf32).
 
 The ARC GNU IDE provides support for the following functionality:
 
-* Support for Windows 7, Ubuntu Linux 14.04 LTS and RedHat Enterprise Linux 6.0
+* Support for Windows 7, Ubuntu Linux 14.04 LTS and RedHat Enterprise Linux 6
 Development Host Systems
-
-* Support for the ARC EM and HS Processors
-
+* Support for the ARC EM, ARC HS, ARC 600 and ARC 700 Processors
 * Support for little and big endian configurations
-
 * Ability to create C/C++ projects using the ARC elf32 cross-compilation
  toolchain
-
 * Configuration of toolchain parameters per project
-
 * Configuration of individual options (such as preprocessor, optimization, warnings, libraries, and debugging levels) for each toolchain component:
 	+ arc-elf32-gcc
 	+ arc-elf32-gdb
 	+ arc-elf32-as
 	+ arc-elf32-size
-
-* Configuration of debug and run configurations for EM Starter Kit using
- OpenOCD.
-
+* Configuration of debug and run configurations for EM Starter Kit and AXS10x
+ using OpenOCD.
 * Configuration of debug and run configurations for supported FPGA Development
  Systems and debug probes (Digilent HS1 or Ashling Opella-XD).
-
-* GDB-based debugging using  **Debug**  perspective providing detailed debug
+* GDB-based debugging using **Debug** perspective providing detailed debug
  information (including breakpoints, variables, registers, and disassembly)
 
 > Before you begin, refer to the EM Starter Kit and ARC GDB Getting Started
