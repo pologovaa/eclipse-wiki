@@ -2,8 +2,8 @@ Prerequisites
 -------------
 
 ARC GNU plugins for Eclipse have following requirements to the system:
-* Eclipse version >= 4.3
-* CDT version 8.2.1
+* Eclipse version >= 4.4
+* CDT version 8.5.0
 * OS: RHEL 6 or Windows 7
 * On Linux both 32bit and 64-bit versions of Eclipse are supported, on Windows
 only 32-bit Eclipse installations are supported.  Eclipse 64-bit installation

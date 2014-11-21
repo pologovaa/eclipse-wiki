@@ -16,15 +16,16 @@ Development Host Systems
 * Ability to create C/C++ projects using the ARC elf32 cross-compilation
  toolchain
 * Configuration of toolchain parameters per project
-* Configuration of individual options (such as preprocessor, optimization, warnings, libraries, and debugging levels) for each toolchain component:
-	+ arc-elf32-gcc
-	+ arc-elf32-gdb
-	+ arc-elf32-as
-	+ arc-elf32-size
+* Configuration of individual options (such as preprocessor, optimization,
+* warnings, libraries, and debugging levels) for each toolchain component:
+	+ GCC Compiler
+	+ GDB Debugger
+	+ GAS assembler
+	+ Size binutils utility, etc.
 * Configuration of debug and run configurations for EM Starter Kit and AXS10x
  using OpenOCD.
 * Configuration of debug and run configurations for supported FPGA Development
- Systems and debug probes (Digilent HS1 or Ashling Opella-XD).
+ Systems and debug probes (Digilent HS1/HS2 or Ashling Opella-XD).
 * GDB-based debugging using **Debug** perspective providing detailed debug
  information (including breakpoints, variables, registers, and disassembly)
 
