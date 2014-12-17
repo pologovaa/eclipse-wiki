@@ -24,6 +24,8 @@
 
    _Choosing proper properties file for nSIM_
 3. Debugging an ARC EM C project
+
+To debug application using nSIM, press "Debug" button of IDE.
     
    ![Start nSIM gdbserver debugging](images/Start nSIM gdbserver debugging.png)
     
