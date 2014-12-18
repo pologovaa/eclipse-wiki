@@ -19,21 +19,21 @@ ARC GNU IDE should be installed in the path no longer than 50 characters and
 cannot contain white spaces.
 
 ![Run ARC_GNU_IDE_1.1.0_win_install.exe]
-(images/Run ARC_GNU_IDE_1.1.0_win_install.exe.png)
+(images/install/run_arc_gnu_1.1.0_win_install.exe.png)
 
 _Run ARC_GNU_IDE_1.1.0_win_install.exe_
 
-![Choose installer paths](images/Choose installer paths.png)
+![Choose installer paths](images/install/choose_installer_paths.png)
 
 _Choose installer paths_
 
-![Installation Completed](images/Installation Completed.png)
+![Installation Completed](images/install/installation_completed.png)
 
 _Installation Completed_
 
-![Click “Show details” button](images/Click “Show details” button.png)
+![Click "Show details" button](images/install/click_show_details_button.png)
 
-_Click “Show details” button_
+_Click "Show details" button_
 
 
 Downloading latest plugins
@@ -66,7 +66,7 @@ which is "An ANSI (vt102) compatible Terminal including plug-ins for Serial,
 SSH and Telnet connections."
 
 ![Installation of Eclipse terminal plugin]
-(images/Figure 4 Installation of Eclipse terminal plugin.png)
+(images/install/installation_of_eclipse_terminal_plugin.png)
 
 _Installation of Eclipse terminal plugin_
 
@@ -80,75 +80,75 @@ Archive ->` select arc_gnu_plugins.zip file. Unzip this archived folder, there
 will be six components in it.
 
 ![Install from local PC]
-(images/Figure 5 Install from local PC.png)
+(images/install/install_from_local_pc.png)
 
 _Install from local PC_
 
 ![Check GNU ARC C++ Development Support]
-(images/Figure 6 Check GNU ARC C++ Development Support.png)
+(images/install/check_gnu_arc_c++_development_support.png)
 
 _Check GNU ARC C++ Development Support_
 
-![Get copyright by clicking “more”]
-(images/Figure 7 Get copyright by clicking “more”.png)
+![Get copyright by clicking "more"]
+(images/install/get_copyright_by_clicking_more.png)
 
-_Get copyright by clicking “more”_
+_Get copyright by clicking "more"_
 
-![Get General Information by clicking “more”]
-(images/Figure 8 Get General Information by clicking “more”.png)
+![Get General Information by clicking "more"]
+(images/install/get_general_information_by_clicking_more.png)
 
-_Get General Information by clicking “more”_
+_Get General Information by clicking "more"_
 
-![Get License Agreement by clicking “more”]
-(images/Figure 9 Get License Agreement by clicking “more”.png)
+![Get License Agreement by clicking "more"]
+(images/install/get_license_agreement_by_clicking_more.png)
 
-_Get License Agreement by clicking “more”_
+_Get License Agreement by clicking "more"_
 
-![Install Details](images/Figure 10 Install Details.png)
+![Install Details](images/install/install_details.png)
 
 _10 Install Details_
 
 ![Accept the terms of license agreement]
-(images/Figure 11 Accept the terms of license agreement.png)
+(images/install/accept_the_terms_of_license_agreement.png)
 
 _Accept the terms of license agreement_
 
 ![Install ARC GNU IDE Plugin]
-(images/Figure 12 Install ARC GNU IDE Plugin.png)
+(images/install/install_arc_gnu_ide_plugin.png)
 
 _Install ARC GNU IDE Plugin_
 
 ![Warning about this plugins installation]
-(images/Figure 13 Warning about this plugins installation.png)
+(images/install/warning_about_this_plugin_installation.png)
 
 _Warning about this plugins installation_
 
-![Restarting Eclipse](images/Figure 14 Restarting Eclipse.png)
+![Restarting Eclipse](images/install/restarting_eclipse.png)
 
 _Restarting Eclipse_
 
-Ignore the Security Warning, and click “Ok”, after restarting Eclipse IDE, the
-installation is finished. If user install plug-in successfully, the “ARC” icon
-will show up in “About Eclipse”.
+Ignore the Security Warning, and click "Ok", after restarting Eclipse IDE, the
+installation is finished. If user install plug-in successfully, the "ARC" icon
+will show up in "About Eclipse".
 
-![Plug-in in Eclipse IDE](images/Figure 15 Plug-in in Eclipse IDE.png)
+![Plug-in in Eclipse IDE](images/install/plug-in_in_eclipse_ide.png)
 
 _Plug-in in Eclipse IDE_
 
-Click the “ARC” icon; user will get detailed plug-in features information.
+Click the "ARC" icon; user will get detailed plug-in features information.
 
 ![About Eclipse ELF32 Plug-in Features]
-(images/Figure 16 About Eclipse ELF32 Plug-in Features.png)
+(images/install/about_eclipse_elf32_plug-in_features.png)
 
 _About Eclipse ELF32 Plug-in Features_
 
-Click the “Installation Details” button, the Features and Plug-ins will also show up.
+Click the "Installation Details" button, the Features and Plug-ins will also show up.
 
-![ARC GNU plugin Plug-ins](images/Figure 17 ARC GNU plugin Plug-ins.png)
+![ARC GNU plugin Plug-ins](images/install/arc_gnu_plugin_plug-ins.png)
 
 _ARC GNU plugin Plug-ins_
 
-![ARC GNU plugin Features](images/Figure 18 ARC GNU plugin Features.png)
+![ARC GNU plugin Features](images/install/arc_gnu_plugin_features.png)
 
 _ARC GNU plugin Features_
 
@@ -157,51 +157,51 @@ Updating existing plugin
 ------------------------
 
 If users want to update the existing plugin, as shown in the figure below, and
-the version of this current plugin is for example “1.1.0.201402280630”, they
+the version of this current plugin is for example "1.1.0.201402280630", they
 can update it by using the same way of plugin installation.
 
 ![ARC GNU plugin Features]
-(images/Figure 18 ARC GNU plugin Features.png)
+(images/install/arc_gnu_plugin_features.png)
 
 _ARC GNU plugin Features_
 
 ![Current ARC GNU IDE plugin]
-(images/Figure 19 Current ARC GNU IDE plugin.png)
+(images/install/current_arc_gnu_ide_plugin.png)
 
 _Current ARC GNU IDE plugin_
 
 ![Installation of latest plugin]
-(images/Figure 20 Installation of latest plugin.png)
+(images/install/installation_of_latest_plugin.png)
 
 _Installation of latest plugin_
 
 ![Updated ARC GNU IDE plugin]
-(images/Figure 21 Updated ARC GNU IDE plugin.png)
+(images/install/updated_arc_gnu_ide_plugin.png)
 
 _Updated ARC GNU IDE plugin_
 
 ![General Information of the latest plugin]
-(images/Figure 22 General Information of the latest plugin.png)
+(images/install/general_information_of_the_latest_plugin.png)
 
 _General Information of the latest plugin_
 
 ![Installed details of the latest plugin]
-(images/Figure 23 Installed details of the latest plugin.png)
+(images/install/installed_details_of_the_latest_plugin.png)
 
 _Installed details of the latest plugin_
 
 ![Upate exiting plugins successfully]
-(images/Figure 24 Upate exiting plugins successfully.png)
+(images/install/update_existing_plugins_sucessfully.png)
 
 _Upate exiting plugins successfully_
 
 ![Updated ARC GNU plugin Features]
-(images/Figure 25 Updated ARC GNU plugin Features.png)
+(images/install/updated_arc_gnu_plugin_features.png)
 
 _Updated ARC GNU plugin Features_
 
 ![Updated ARC GNU plugin Plug-ins]
-(images/Figure 26 Updated ARC GNU plugin Plug-ins.png)
+(images/install/updated_arc_gnu_plugin_plug-ins.png)
 
 _Updated ARC GNU plugin Plug-ins_
 
