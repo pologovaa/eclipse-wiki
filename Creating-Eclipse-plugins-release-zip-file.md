@@ -9,7 +9,7 @@ Eclipse for GNU Toolchain for ARC.
 are only partially functional.
     1. Make sure that "Project / Build Automatically" is checked
     2. Go to "Project / Clean"
-    3. Check "Clean all proejcts"
+    3. Check "Clean all projects"
     4. Press OK button
 5. Open `site.xml` file of "ARC GNU Eclipse Update Project"
 6. Press "Build All"
