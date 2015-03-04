@@ -5,7 +5,7 @@ Eclipse for GNU Toolchain for ARC.
 2. Clean all past artifacts: `$ git clean -dfx`
 3. Start Eclipse
 4. Build plugins. That is important, because even when it is not done,
-"pusblishing step" will somehow succeed, but will produce plugins that
+"publishing step" will somehow succeed, but will produce plugins that
 are only partially functional.
     1. Make sure that "Project / Build Automatically" is checked
     2. Go to "Project / Clean"
