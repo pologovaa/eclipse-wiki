@@ -1,13 +1,13 @@
 Table of Contents
 -----------------
 
-* [Prerequisites](#1.-prerequisites)
-* [Using installer for Windows](#2.-using-installer-for-windows)
-* [Manual installation on Linux and Windows](#3.-manual-installation-on-linux-and-windows)
-  * [Downloading latest plugins](#3.1-downloading-latest-plugins)
-  * [Installing into Eclipse](#3.2-installing-into-eclipse)
-* [Updating existing plugin](#4.-updating-existing-plugin)
-* [Installing plugin on Linux host](#5.-installing-plugin-on-linux-host)
+* [Prerequisites](#1-prerequisites)
+* [Using installer for Windows](#2-using-installer-for-windows)
+* [Manual installation on Linux and Windows](#3-manual-installation-on-linux-and-windows)
+  * [Downloading latest plugins](#31-downloading-latest-plugins)
+  * [Installing into Eclipse](#32-installing-into-eclipse)
+* [Updating existing plugin](#4-updating-existing-plugin)
+* [Installing plugin on Linux host](#5-installing-plugin-on-linux-host)
 
 1. Prerequisites
 ----------------
@@ -19,8 +19,8 @@ ARC GNU plugins for Eclipse have following requirements to the system:
 * Java VM version >= 1.6 is required (part of Windows installer)
 * On Linux both 32bit and 64-bit versions of Eclipse are supported, on Windows
 only 32-bit Eclipse installations are supported.  Eclipse 64-bit installation
-is not supported, so it is required to run 32-bit version of Eclipse on
-64-bit Windows versions, to overcome this limitation.
+is not supported, so it is required to run 32-bit version of Eclipse on 64-bit
+Windows versions, to overcome this limitation.
 
 
 2. Using installer for Windows
@@ -58,8 +58,8 @@ _Click "Show details" button_
 To install Eclipse IDE for GNU Toolchain for ARC manually:
 
 1. [Download Eclipse IDE for C/C++ Developers, that already contains CDT](https://www.eclipse.org/downloads/)
-2. [Download latest ARC plugins for Eclipse](#3.1-downloading-latest-plugins)
-2. [Install ARC plugins into Eclipse](#3.2-installing-into-eclipse)
+2. [Download latest ARC plugins for Eclipse](#31-downloading-latest-plugins)
+2. [Install ARC plugins into Eclipse](#32-installing-into-eclipse)
 
 
 ### 3.1 Downloading latest plugins ###
@@ -85,7 +85,7 @@ _Components of arc_gnu_plugins.zip features_
 _Components of arc_gnu_plugins.zip_plugins_
 
 
-### 3.2 Installing into Eclipsea ###
+### 3.2 Installing into Eclipse ###
 
 To run ARC plugins for Eclipse, it is required to have Target Terminal plugin
 installed in Eclipse. In Eclipse go to "Help", then "Install new Software",
