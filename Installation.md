@@ -1,29 +1,35 @@
 Table of Contents
 -----------------
 
-* [Prerequisites](prerequisites)
-* [Using installer for Windows](using-installer-for-windows)
-* [Downloading latest plugins](downloading-latest-plugins)
-* [Installing into Eclipse](installing-into-eclipse)
-* [Updating existing plugin](updating-existing-plugin)
-* [Installing plugin on Linux host](installing-plugin-on-linux-host)
+* [Prerequisites](#1.-prerequisites)
+* [Using installer for Windows](#2.-using-installer-for-windows)
+* [Manual installation on Linux and Windows](#3.-manual-installation-on-linux-and-windows)
+  * [Downloading latest plugins](#3.1-downloading-latest-plugins)
+  * [Installing into Eclipse](#3.2-installing-into-eclipse)
+* [Updating existing plugin](#4.-updating-existing-plugin)
+* [Installing plugin on Linux host](#5.-installing-plugin-on-linux-host)
 
-Prerequisites
--------------
+1. Prerequisites
+----------------
 
 ARC GNU plugins for Eclipse have following requirements to the system:
-* Eclipse version >= 4.4
-* CDT version 8.5.0
 * OS: RHEL 6 or Windows 7
+* Eclipse version >= 4.4 (part of Windows installer)
+* CDT version 8.5.0 (part of Windows installer)
+* Java VM version >= 1.6 is required (part of Windows installer)
 * On Linux both 32bit and 64-bit versions of Eclipse are supported, on Windows
 only 32-bit Eclipse installations are supported.  Eclipse 64-bit installation
 is not supported, so it is required to run 32-bit version of Eclipse on
 64-bit Windows versions, to overcome this limitation.
-* Java VM version >= 1.6 is required
 
 
-Using installer for Windows
----------------------------
+2. Using installer for Windows
+------------------------------
+
+Windows users are advised to use our Windows installer for Eclisepse for GNU
+Toolchain for IDE, that can be downloaded from this [releases
+page](https://github.com/foss-for-synopsys-dwc-arc-processors/arc_gnu_eclipse/releases).
+Installer already contains all of the necessary components.
 
 ARC GNU IDE should be installed in the path no longer than 50 characters and
 cannot contain white spaces.
@@ -46,8 +52,17 @@ _Installation Completed_
 _Click "Show details" button_
 
 
-Downloading latest plugins
---------------------------
+3. Manual installation on Linux and Windows
+-------------------------------------------
+
+To install Eclipse IDE for GNU Toolchain for ARC manually:
+
+1. [Download Eclipse IDE for C/C++ Developers, that already contains CDT](https://www.eclipse.org/downloads/)
+2. [Download latest ARC plugins for Eclipse](#3.1-downloading-latest-plugins)
+2. [Install ARC plugins into Eclipse](#3.2-installing-into-eclipse)
+
+
+### 3.1 Downloading latest plugins ###
 
 User can get this plug-in from website URL
 <https://github.com/foss-for-synopsys-dwc-arc-processors/arc_gnu_eclipse/releases>,
@@ -69,9 +84,12 @@ _Components of arc_gnu_plugins.zip features_
 
 _Components of arc_gnu_plugins.zip_plugins_
 
-To run ARC_GNU_IDE plugins, you need to install Target Terminal plugin. The url
-for Luna's update site is <http://download.eclipse.org/releases/luna>, then
-select: Mobile and Device Development, especially Target Management Terminal
+
+### 3.2 Installing into Eclipsea ###
+
+To run ARC plugins for Eclipse, it is required to have Target Terminal plugin
+installed in Eclipse. In Eclipse go to "Help", then "Install new Software",
+select "Luna" in "Work with" combo box, then select Target Management Terminal
 which is "An ANSI (vt102) compatible Terminal including plug-ins for Serial,
 SSH and Telnet connections."
 
@@ -79,10 +97,6 @@ SSH and Telnet connections."
 (images/install/installation_of_eclipse_terminal_plugin.png)
 
 _Installation of Eclipse terminal plugin_
-
-
-Installing into Eclipse
------------------------
 
 After downloading arc_gnu_plugins.zip successfully, user also can install it
 from local by pointing Eclipse to it: `Eclipse -> Install New Software -> Add ->
@@ -163,12 +177,12 @@ _ARC GNU plugin Plug-ins_
 _ARC GNU plugin Features_
 
 
-Updating existing plugin
-------------------------
+4. Updating existing plugin
+---------------------------
 
-If users want to update the existing plugin, as shown in the figure below, and
-the version of this current plugin is for example "1.1.0.201402280630", they
-can update it by using the same way of plugin installation.
+To update the existing plugin, as shown in the figure below, and
+the version of this current plugin is for example "1.1.0.201402280630",
+follow same instructrions as plugin installation.
 
 ![ARC GNU plugin Features]
 (images/install/arc_gnu_plugin_features.png)
@@ -216,8 +230,8 @@ _Updated ARC GNU plugin Features_
 _Updated ARC GNU plugin Plug-ins_
 
 
-Installing plugin on Linux host
--------------------------------
+5. Installing plugin on Linux host
+----------------------------------
 
 If you plan to connect to UART port on target board with RxTx plugin controlled
 by IDE you need to change permissions of directory /var/lock in your system.
