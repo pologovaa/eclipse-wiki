@@ -1,3 +1,13 @@
+Table of Contents
+-----------------
+
+* [Prerequisites](prerequisites)
+* [Using installer for Windows](using-installer-for-windows)
+* [Downloading latest plugins](downloading-latest-plugins)
+* [Installing into Eclipse](installing-into-eclipse)
+* [Updating existing plugin](updating-existing-plugin)
+* [Installing plugin on Linux host](installing-plugin-on-linux-host)
+
 Prerequisites
 -------------
 
