@@ -62,6 +62,7 @@ Follow the steps below to configure the ARC GNU toolchain:
 
     Once the configuration options have been selected, click **Apply** and then **OK** to save the toolchain configuration.
 
+Note: For AXS103 project, multiply instructions should be "9" and FPU should be maximum "-mfpu=fpud_all"
 
 Building a Project
 ------------------
