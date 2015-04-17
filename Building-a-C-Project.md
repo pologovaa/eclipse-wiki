@@ -62,7 +62,9 @@ Follow the steps below to configure the ARC GNU toolchain:
 
     Once the configuration options have been selected, click **Apply** and then **OK** to save the toolchain configuration.
 
-Note: For AXS103 project, multiply instructions should be "9" and FPU should be maximum "-mfpu=fpud_all"
+Note: Project templates provided with IDE for ARC already set processor potions to values specific to target development systems. However due to a bug in CDT, it is not possible to specify multiplier and FPU values in template.
+  * For AXS103 projects, multiply instructions should be "9" and FPU should be maximum "-mfpu=fpud_all"
+  * For EM SK v3 projects, multiply instructions should be "6". FPU should be maximum "-mfpu=fpud_all" for EM7D_FPU configuration.
 
 Building a Project
 ------------------
