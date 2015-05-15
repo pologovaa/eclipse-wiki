@@ -11,7 +11,7 @@ are only partially functional.
     2. Go to "Project / Clean"
     3. Check "Clean all projects"
     4. Press OK button
-5. Open `site.xml` file of "ARC GNU Eclipse Update Project"
+5. Open `site.xml` file of "ARC GNU Eclipse Update Site"
 6. Press "Build All"
 7. Zip contents of "updatesite" folder. Note that contents of this folder
 should be zipped, not the folder itself. Files `.gitignore` and `.project`
