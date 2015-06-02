@@ -250,6 +250,15 @@ example to set required permissions on Fedora:
     $ ls -ld /run/lock/
     drwxrwxrwx. 8 root root 160 Mar 28 17:32 /run/lock/
 
-If you don't want or can't change permissions for this directory then you need
-to disable serial port in debugger configuration window.
+If it is not possible or not desirable to change permissions for this directory
+then serial port connection must be disable in Eclipse debugger configuration
+window.
+
+Another problem that might happen is necessary permissions to open UART device.
+For example on Ubuntu 14.04 only root and members of `dialout` group can use
+/dev/ttyUSB1 (typical UART port for boards based on FT2232 chip). Thus to use
+connect to those port user must be made member of `dialout` group. Command to
+do this:
+
+    $ sudo usermod -a -G plugdev `whoami`
 
