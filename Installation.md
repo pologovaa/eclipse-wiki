@@ -37,7 +37,15 @@ cannot contain white spaces.
 ![Run ARC_GNU_IDE_1.1.0_win_install.exe]
 (images/install/run_arc_gnu_1.1.0_win_install.exe.png)
 
-_Run ARC_GNU_IDE_1.1.0_win_install.exe_
+_Run arc_gnu_2015.06_ide_win_install.exe_
+
+![Accept Synopsys FOSS notice](images/install/license_page.png)
+
+_Accept Synopsys FOSS notice_
+
+![Choose components to be installed](images/install/components_page.png)
+
+_Choose components to be installed_
 
 ![Choose installer paths](images/install/choose_installer_paths.png)
 
@@ -46,10 +54,6 @@ _Choose installer paths_
 ![Installation Completed](images/install/installation_completed.png)
 
 _Installation Completed_
-
-![Click "Show details" button](images/install/click_show_details_button.png)
-
-_Click "Show details" button_
 
 
 3. Manual installation on Linux and Windows
