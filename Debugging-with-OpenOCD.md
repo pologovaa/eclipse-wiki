@@ -22,9 +22,9 @@ to create a new debug configuration for the project:
     _ARC Embedded Debug Configurations_
 
 3. Select a name for the new debug configuration (by default, it equals the
-project name followed by “Debug”).
+project name followed by "Debug").
 
-    ![New debug Configuration](images/New debug Configuration.png)
+    ![New debug Configuration](images/openocd/debug_configuration.png)
 
     _New debug Configuration_
 
@@ -36,51 +36,34 @@ project name followed by “Debug”).
     _Default values in the Debugger tab for JTAG via OpenOCD_
 
     ![Default values in the GDBserver Debugger Options tab]
-    (images/Default values in the GDBserver Debugger Options tab.png)
+    (images/openocd/default_values.png)
 
     _Default values in the GDBserver Debugger Options tab_
 
     Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM
-    Starter Kit. Select the **nSIM** for use simulator without hardware be
-    connected.
+    Starter Kit.
 
-    The **"COM Ports" picklist** shows the value for Digilent USB Serial
-    Port from the Windows registry. You can modify the value as desired, but
-    the selection must match the port number in Device and Printers as shown in
-    below.
+    The **"COM Ports" picklist** at "Terminal" tab shows the value for Digilent
+    USB Serial Port from the Windows registry. You can modify the value as
+    desired, but the selection must match the port number in Device and
+    Printers as shown in below.
 
     ![Digilent USB Serial COM Port](images/Digilent USB Serial COM Port.png)
 
     _Digilent USB Serial COM Port_
 
-    ![USB Serial COM Port](images/USB Serial COM Port.png)
+    ![USB Serial COM Port](images/openocd/com_port.png)
 
     _USB Serial COM Port_
 
-5. Click the **Commands** tab.
-
-    ![Default values in the Commands tab]
-    (images/Default values in the Commands tab.png)
-
-    _Default values in the Commands tab_
-
-    The default **“Initialize”** and **“Run”** commands is null, you can use
-    them directly, or modify the list as desired.
-
-6. Click the **Debug** button in the **Debug configurations** dialog to
+5. Click the **Debug** button in the **Debug configurations** dialog to
 initiate debug session.
 
     This action automatically launches the Serial terminal and OpenOCD
     applications in the background and   connects to the UART on the EM Starter
-    Kit board. After checking the “Allocate console (necessary for input)" in
-    **Common Tab**, OpenOCD startup log messages will appear in the console.
+    Kit board.
 
-    ![Check “Allocate console” in Common Tab]
-    (images/Check “Allocate console” in Common Tab.png)
-
-    _Check “Allocate console” in Common Tab_
-
-7. Click **Yes** in the confirmation dialog to switch to the Debug perspective
+6. Click **Yes** in the confirmation dialog to switch to the Debug perspective
 
     ![Perspective Switch](images/Perspective Switch.png)
 
@@ -94,7 +77,7 @@ initiate debug session.
 
     _Launch of Serial terminal_
 
-8. Click the **Debug** button in the **Debug configurations** dialog to
+7. Click the **Debug** button in the **Debug configurations** dialog to
 initiate the debug session:
 
     ![Debugging Process](images/Debugging Process.png)
