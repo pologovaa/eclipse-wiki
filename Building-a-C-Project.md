@@ -10,7 +10,7 @@ Creating a New C Project
     Please note that different project types have different Tool Setting properties and different default options, and if you don't see some toolchain in the list, then you should check PATH contents.
 2. Enter a project name
 
-   ![C Project Creation Dialog](images/C Project Creation Dialog.png)
+   ![C Project Creation Dialog](images/C Project Creation Dialog.jpg)
 
    _C Project Creation Dialog_
 
