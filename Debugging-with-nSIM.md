@@ -6,7 +6,7 @@
   
 2. Choosing nSIM gdbserver under Debug Configuration
    
-   ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.png)
+   ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.jpg)
     
    _Choosing nSIM on debug tab_
 
