@@ -1,10 +1,11 @@
-1. Creating C project
-    
+### Creating C project
+   
   ![C Project for nSIM debugging](images/C Project for nSIM debugging.png)
 
-    _C Project for nSIM debugging_
+  _C Project for nSIM debugging_
   
-2. Choosing nSIM gdbserver under Debug Configuration
+
+### Choosing nSIM gdbserver under Debug Configuration
    
    ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.jpg)
     
@@ -23,10 +24,9 @@
    that will set only a single property for big endian, then in IDE GUI in nSIM
    GDBserver settings specify bath to both TCF and properties file and that
    will give a desired results.
-   
-   ![Choosing proper properties file for nSIM](images/Choosing proper properties file for nSIM.png)
 
-3. Debugging an ARC EM C project
+
+### Debugging an ARC EM C project
 
 To debug application using nSIM, press "Debug" button of IDE.
     
