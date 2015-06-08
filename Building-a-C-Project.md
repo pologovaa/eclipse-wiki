@@ -2,12 +2,13 @@ Creating a New C Project
 ------------------------
 
 1. Select **File >New >C Project**
+
     ![Creating a new C project](images/Creating a new C project.png)
 
     _Creating a new C project_
 
-    The **C Project** dialog has two ARC project types:  **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static Library**.
-    Please note that different project types have different Tool Setting properties and different default options, and if you don't see some toolchain in the list, then you should check PATH contents.
+    The **C Project** window has two ARC project types:  **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static Library**. Please note that some projects types might support only particular toolchain, for example EM Starter Kit projects support only EM toolchain. Furthermore toolchain is available in a list only if it's compiler can be found in `PATH` environment variable or at `../bin/` directory relative to Eclipse executable. Therefore if you don't see required toolchain in the list, then you should check value of `PATH` environment variable.
+
 2. Enter a project name
 
    ![C Project Creation Dialog](images/C Project Creation Dialog.jpg)
