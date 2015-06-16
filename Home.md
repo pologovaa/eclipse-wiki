@@ -39,8 +39,7 @@ Other features
 * Eclipse updated to version 4.4 "Luna"
 * CDT updated to version 8.5
 * OpenOCD updated to current master head commit
-* ARC GNU toolchain updated to 2014.12 (see toolchain release page for changes details
-Support for Synopsys DesignWare ARC EM StarterKit version 2.0
+
 
 Table of Contents
 -----------------
