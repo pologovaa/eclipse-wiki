@@ -37,7 +37,7 @@ Development Host Systems
 Other features
 
 * Eclipse updated to version 4.4 "Luna"
-* CDT updated to version 8.5
+* CDT updated to version 8.6
 * OpenOCD updated to current master head commit
 
 
