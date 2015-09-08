@@ -17,7 +17,7 @@ Choosing toolchain
 ------------------
 
 1. Choose proper toolchain for uClibc project type.
-    ![uClibc supported toolchain](images/uClibc_supported_toolchain.png)
+    ![uClibc supported toolchain](images/uClibc_supported _toolchain.jpg)
 
     _uClibc supported toolchain_
 

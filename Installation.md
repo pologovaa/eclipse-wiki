@@ -22,6 +22,9 @@ only 32-bit Eclipse installations are supported.  Eclipse 64-bit installation
 is not supported, so it is required to run 32-bit version of Eclipse on 64-bit
 Windows versions, to overcome this limitation.
 
+> ARC plugins for Eclipse have been found to have compatibility issues with
+> Msys on Windows hosts. For ARC plugins for Eclipse to work properly it is
+> required that Msys is not present in PATH environment variable.
 
 2. Using installer for Windows
 ------------------------------
