@@ -31,7 +31,7 @@ project name followed by "Debug").
 4. Click the **Debugger** tab.
 
     ![Default values in the Debugger tab for JTAG via OpenOCD]
-    (images/Default values in the Debugger tab for JTAG via OpenOCD_FTDI.png)
+    (images/Default values in the Debugger tab for JTAG via OpenOCD_FTDI.jpg)
 
     _Default values in the Debugger tab for JTAG via OpenOCD_
 
