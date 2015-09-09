@@ -36,9 +36,6 @@ project name followed by "Debug").
     _Default values in the Debugger tab for JTAG via OpenOCD_
 
     ![Default values in the GDBserver Debugger Options tab]
-    (images/openocd/default_values.png)
-
-    _Default values in the GDBserver Debugger Options tab_
 
     Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM
     Starter Kit.
