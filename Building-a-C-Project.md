@@ -19,7 +19,7 @@ Creating a New C Project
    Target Application**. The Hello ARC project is an example project that
    comes with the EM Starter Kit Software and uses the UART on the EM Starter
    Kit to display output. To see output printer to UART, connection to serial
-   port should be established, by default Eclipse for ARC will automatically
+   port should be established. By default Eclipse for ARC will automatically
    connect to available serial port, but that feature can be disabled and in
    that case refer to the EM Starter Kit Getting Started for instructions on
    how to connect to the UART on the EM Starter Kit board using Putty.
