@@ -16,4 +16,6 @@ are only partially functional.
 1. Press "Build All"
 1. Zip contents of "updatesite" folder. Note that contents of this folder
 should be zipped, not the folder itself. Files `.gitignore` and `.project`
-should be excluded from zip.
+should be excluded from zip:
+
+        zip -r arc_gnu_2015.12_ide_plugins.zip artifacts.jar content.jar features/ plugins/ site.xml
