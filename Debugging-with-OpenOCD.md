@@ -35,8 +35,9 @@ project name followed by "Debug").
 
     _Default values in the Debugger tab for JTAG via OpenOCD_
 
-    Select the **JTAG via OpenOCD** or **JTAG via Ashling** for use with EM
-    Starter Kit.
+    Select the **JTAG via OpenOCD** or **JTAG via Opella-XD** to use with EM
+    Starter Kit. You can also choose **Connect to running GDB server** if you
+    want to use OpenOCD or Opella-XD server that is already running.
 
     The **"COM Ports" picklist** at "Terminal" tab shows the value for Digilent
     USB Serial Port from the Windows registry. You can modify the value as
