@@ -7,7 +7,7 @@ Creating a New C Project
 
     _Creating a new C project_
 
-    The **C Project** window has two ARC project types:  **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static Library**. Please note that some projects types might support only particular toolchain, for example EM Starter Kit projects support only EM toolchain. Furthermore toolchain is available in a list only if it's compiler can be found in `PATH` environment variable or at `../bin/` directory relative to Eclipse executable. Therefore if you don't see required toolchain in the list, then you should check value of `PATH` environment variable.
+    The **C Project** window has several ARC project types:  **ARC Cross ELF32 Target Application**, **ARC Cross ELF32 Target Static Library**, **AXS10x Projects** and *EM Starter Kit Projects*. Please note that some projects types might support only particular toolchain, for example EM Starter Kit projects support only EM toolchain. Furthermore toolchain is available in a list only if it's compiler can be found in `PATH` environment variable or at `../bin/` directory relative to Eclipse executable. Therefore if you don't see required toolchain in the list, then you should check value of `PATH` environment variable.
 
 2. Enter a project name
 
@@ -15,8 +15,8 @@ Creating a New C Project
 
    _C Project Creation Dialog_
 
-   1. Select **Hello World for EM SK 2.0 Project** under **ARC Cross ELF32
-   Target Application**. The Hello ARC project is an example project that
+   1. Select **Hello World for EM SK 2.0 Project** under **EM Starter Kit
+   Projects**. The Hello World for EM SK 2.0 project is an example project that
    comes with the EM Starter Kit Software and uses the UART on the EM Starter
    Kit to display output. To see output printer to UART, connection to serial
    port should be established. By default Eclipse for ARC will automatically
@@ -38,11 +38,11 @@ Creating a New C Project
 
     _C Project creation – Configurations Dialog_
 
-The resulting Hello ARC project created in Eclipse is:
+The resulting Hello World project created in Eclipse is:
 
-![Final Hello ARC Project in Eclipse ](images/Final Hello ARC Project in Eclipse.png)
+![Final Hello World Project in Eclipse ](images/Final Hello ARC Project in Eclipse.png)
 
-_Final Hello ARC Project in Eclipse_
+_Final Hello World Project in Eclipse_
 
 File changes could be required depending on version of EM Starter Kit. Users of EM Starter Kit version 1.1 should update file starterkit.h with new values of core and peripherals frequencies. Redefine CPU_CLOCK to 30000000 and PERIPHERAL_CLOCK to 50000000.
 
@@ -56,7 +56,7 @@ Configuring the ARC GNU Toolchain
 
 Follow the steps below to configure the ARC GNU toolchain:
 
-1. Right click on the Hello ARC project and select **Properties** from the pop-up menu:
+1. Right click on the Hello World project and select **Properties** from the pop-up menu:
 
     ![Configuring the toolchain for the project](images/Configuring the toolchain for the project.png)
 
@@ -79,7 +79,7 @@ Note: Project templates provided with IDE for ARC already set processor potions 
 Building a Project
 ------------------
 
-1. Right click on the _Hello ARC project_ and select **Build Project** from the pop-up menu
+1. Right click on the _Hello World project_ and select **Build Project** from the pop-up menu
 
     ![Building a Project](images/Building a Project.png)
 
