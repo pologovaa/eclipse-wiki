@@ -1,17 +1,18 @@
-### Creating C project
-   
-  ![C Project for nSIM debugging](images/C Project for nSIM debugging.png)
 
-  _C Project for nSIM debugging_
-  
+It is expected that you have already built your application and created a
+ debug configuration for it. About how to do it you can read on the following
+pages:
+* [Building an Application](Building-User-Guide)
+* [Creating a Debug Configuration](Creating-a-Debug-Configuration)
 
-### Choosing nSIM gdbserver under Debug Configuration
-   
-   ![Choosing nSIM on debug tab](images/Choosing nSIM on debug tab.jpg)
-    
+
+### Specifying nSIM properties
+
+   ![Choosing nSIM on debug tab](images/debugging/nsim/nsim_tab.png)
+
    _Choosing nSIM on debug tab_
 
-   In this tab, user need to indicate correct properties file/TCF file for
+   In this tab, user needs to indicate correct properties file/TCF file for
    current CPU core. In general it is recommended to use TCF files, because
    they are generated from the Build Configuration Registers and thus most
    reliably describe target core. nSIM Properties files contain list of
@@ -26,23 +27,33 @@
    will give a desired results.
 
 
-### Debugging an ARC EM C project
+   Other available options:
+   - **JIT** checkbox enables Just-In-Time compilation. You can also specify a number
+    of threads to use in JIT mode.
+   - **GNU host I/O support**, if checked, enables nSIM GNU host I/O support. It means
+    that input/output requests from application will be handled by nSIM and redirected
+    to the host system. This could be used, for example, to enable functions in the
+    C library, such as `printf()` and `scanf()`. This option works only if the application
+    is compiled with the ARC GCC compiler.
+   - **Enable Exception**, **Memory Exception** and **Invalid Instruction Exception**
+    options, if checked, tell nSIM to simulate all exceptions, memory exceptions and
+    invalid instruction expections, respectively. If one of these options is unchecked
+    and corresponding exception happens, nSIM will break with an error instead.
 
-To debug application using nSIM, press "Debug" button of IDE.
-    
-   ![Start nSIM gdbserver debugging](images/Start nSIM gdbserver debugging.png)
-    
-   _Start nSIM gdbserver debugging_
-   
-   ![Debugging with nSIM gdbserver](images/Debugging with nSIM gdbserver.png)
-    
+### Debugging an application
+
+To debug application using nSIM, press **Debug** button of IDE.
+
+
+   ![Debugging with nSIM gdbserver](images/debugging/nsim/nsim_debug.png)
+
    _Debugging with nSIM gdbserver_
 
-   ![Debug Window](images/Debug Window.png)
-    
+   ![Debug Window](images/debugging/nsim/nsim_debug_window.png)
+
    _Debug Window_
 
-   ![nSIM gdbserver output in console](images/nSIM gdbserver output in console.png)
-     
+   ![nSIM gdbserver output in console](images/debugging/nsim/nsim_output.png)
+
    _nSIM gdbserver output in console_
 

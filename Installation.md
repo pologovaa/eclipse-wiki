@@ -77,19 +77,19 @@ this is an archived version of the GNU ARC Eclipse plug-in update site, the
 file name is arc_gnu_plugins.zip
 
 ![Components of ARC_GNU_IDE_plugins.zip]
-(images/components_of_arc_gnu_plugins.zip.png)
+(images/install/components_of_arc_gnu_plugins_zip.png)
 
 _Components of arc_gnu_plugins.zip_
 
 ![Components of arc_gnu_plugins.zip/features]
-(images/Components of arc_gnu_plugins.zip features.png)
+(images/install/components_of_arc_gnu_plugins_zip_features.png)
 
 _Components of arc_gnu_plugins.zip features_
 
-![Components of arc_gnu_plugins.zip_plugins]
-(images/Components of arc_gnu_plugins.zip_plugins.png)
+![Components of arc_gnu_plugins.zip plugins]
+(images/install/components_of_arc_gnu_plugins_zip_plugins.png)
 
-_Components of arc_gnu_plugins.zip_plugins_
+_Components of arc_gnu_plugins.zip plugins_
 
 
 ### 3.2 Installing into Eclipse ###

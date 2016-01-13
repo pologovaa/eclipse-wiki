@@ -17,38 +17,35 @@ Development Host Systems
  toolchain
 * Configuration of toolchain parameters per project
 * Configuration of individual options (such as preprocessor, optimization,
-* warnings, libraries, and debugging levels) for each toolchain component:
+ warnings, libraries, and debugging levels) for each toolchain component:
 	+ GCC Compiler
 	+ GDB Debugger
 	+ GAS assembler
 	+ Size binutils utility, etc.
-* Configuration of debug and run configurations for EM Starter Kit and AXS10x
- using OpenOCD.
+* Support for Synopsys EM Starter Kit and AXS10x.
 * Configuration of debug and run configurations for supported FPGA Development
  Systems and debug probes (Digilent HS1/HS2 or Ashling Opella-XD).
 * GDB-based debugging using **Debug** perspective providing detailed debug
  information (including breakpoints, variables, registers, and disassembly)
 
-> Before you begin, refer to the EM Starter Kit and ARC GDB Getting Started
-> guide and follow the instructions on how to connect the EM Starter Kit to
+> Before you begin, refer to the EM Starter Kit
+> guide and follow the instructions on how to connect EM Starter Kit to
 > your PC. This is required for the Eclipse IDE GDB debugger to successfully
 > download and debug programs on the target.
 
-Other features
+ARC GNU IDE 2015.12 supports following components:
 
-* Eclipse updated to version 4.4 "Luna"
-* CDT updated to version 8.6
-* OpenOCD updated to current master head commit
+* Eclipse version 4.5 "Mars"
+* CDT version 8.8
+* OpenOCD release 2015.12
+* [ARC GNU Toolchain release 2015.12](https://github.com/foss-for-synopsys-dwc-arc-processors/toolchain/releases/tag/arc-2015.12).
 
 
 Table of Contents
 -----------------
 
 * [Installation](Installation)
-* [Building a C Project](Building-a-C-Project)
-* [Debugging with OpenOCD](Debugging-with-OpenOCD)
-* [Debugging with nSIM](Debugging-with-nSIM)
-* [Building and Debugging Linux uClibc applications]
-  (Building-and-Debugging-Linux-uClibc-applications)
-* [Debugging a big-endian application on EM Starter Kit]
-  (Debugging-a-big-endian-Application-on-EM-Starter-Kit)
+* [Getting Started with EM Starter Kit](Getting-Started-with-EM-Starter-Kit)
+* [Getting Started with nSIM](Getting-Started-with-nSIM)
+* [User Guide](User-Guide)
+

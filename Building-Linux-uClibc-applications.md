@@ -8,7 +8,7 @@ Creating a New C Project
 ------------------------
 
 1. Select File >New >C Project
-    ![C Project Tyes on Linux](images/C Project Tyes on Linux.png)
+    ![C Project Types on Linux](images/uclibc/c_project_types_linux.png)
 
     _C Project Types on Linux_
 
@@ -17,7 +17,7 @@ Choosing toolchain
 ------------------
 
 1. Choose proper toolchain for uClibc project type.
-    ![uClibc supported toolchain](images/uClibc_supported _toolchain.jpg)
+    ![uClibc supported toolchain](images/uclibc/uclibc_toolchains.jpg)
 
     _uClibc supported toolchain_
 
@@ -29,31 +29,32 @@ User should choose a proper toolchain for a core, for different core supports di
 Compiling a uClibc application
 ------------------------------
 1. Select File >New >C Project
-    ![Hello_uClibc_Application_700](images/Hello_uClibc_Application_700.png)
+    ![Hello_uClibc_Application_700](images/uclibc/hello_uclibc_application_700.png)
 
     _Hello_uClibc_Application_700_
 2. Getting compiling output in console
-    ![Hello_uClibc_Application_700_output](images/Hello_uClibc_Application_700_output.png)
+    ![Hello_uClibc_Application_700_output](images/uclibc/hello_uclibc_application_700_output.png)
 
     _Hello_uClibc_Application_700_output.png_
+
 Compiling a uClibc Static Library
 ---------------------------------
 1. Select File >New >C Project
-    ![Hello_uClibc_Staticlib_700](images/Hello_uClibc_Staticlib_700.png)
+    ![Hello_uClibc_Staticlib_700](images/uclibc/hello_uclibc_staticlib_700.png)
 
     _Hello_uClibc_Staticlib_700_
 2. Getting compiling output in console
-    ![Hello_uClibc_Staticlib_700_output](images/Hello_uClibc_Staticlib_700_output.png)
+    ![Hello_uClibc_Staticlib_700_output](images/uclibc/hello_uclibc_staticlib_700_output.png)
 
     _Hello_uClibc_Staticlib_700_output_
 
 Compiling a uClibc Shared Library
 ---------------------------------
 1. Select File >New >C Project
-    ![Hello_uClibc_Sharedlib_700](images/Hello_uClibc_Sharedlib_700.png)
+    ![Hello_uClibc_Sharedlib_700](images/uclibc/hello_uclibc_sharedlib_700.png)
 
     _Hello_uClibc_Sharedlib_700_
 2. Getting compiling output in console
-    ![Hello_uClibc_Sharedlib_700_output](images/Hello_uClibc_Sharedlib_700_output.png)
+    ![Hello_uClibc_Sharedlib_700_output](images/uclibc/hello_uclibc_sharedlib_700_output.png)
 
     _Hello_uClibc_Sharedlib_700_output_
