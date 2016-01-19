@@ -1,6 +1,6 @@
 
-> Note: this page was written for EM Starter Kit 1.0. It is mostly applicable
-> to later versions of EM SK, but there are some minor differences.
+> Note: this page was written for ARC EM Starter Kit 1.0. It is mostly applicable
+> to later versions of ARC EM Starter Kit, but there are some minor differences.
 
 The EM Starter Kit comes with 4 pre-installed little endian configurations.
 User wishing to work with big endian configuration can use the procedure below
@@ -8,7 +8,7 @@ to program a big endian .bit file, using the Digilent Adept Software. Big
 endian .bit file is not a part of the EM Starter Kit Software package, Synopsys
 will provide it on request.
 
-1. Ensure that EM SK is powered ON and connected to the host PC
+1. Ensure that EM Starter Kit is powered ON and connected to the host PC
 
 2. On the EM Starter Kit, close jumper J8 as shown in images below:
 

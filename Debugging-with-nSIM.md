@@ -34,11 +34,11 @@ pages:
     that input/output requests from application will be handled by nSIM and redirected
     to the host system. This could be used, for example, to enable functions in the
     C library, such as `printf()` and `scanf()`. This option works only if the application
-    is compiled with the ARC GCC compiler.
+    is built with the ARC GCC compiler and `--specs=nsim.specs` flag is used.
    - **Enable Exception**, **Memory Exception** and **Invalid Instruction Exception**
     options, if checked, tell nSIM to simulate all exceptions, memory exceptions and
     invalid instruction expections, respectively. If one of these options is unchecked
-    and corresponding exception happens, nSIM will break with an error instead.
+    and corresponding exception happens, nSIM will exit with an error instead.
 
 ### Debugging an application
 

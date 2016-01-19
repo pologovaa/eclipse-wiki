@@ -1,4 +1,4 @@
-Creating Hello World project for EM SK
+Creating Hello World project for ARC EM Starter Kit
 ------------------------
 
 1. Select **File >New >C Project**
@@ -21,7 +21,7 @@ in `../bin/` directory relative to Eclipse executable.
    _C Project Creation Dialog_
 
    1. Under **EM Starter Kit Projects** select **Hello World for EM SK
-2.1 Project** (or **Hello World for EM SK 1.1** depending on your EM SK
+2.1 Project** (or **Hello World for EM SK 1.1** depending on your EM Starter Kit
 version). This Hello World project is an example project that
    comes with the EM Starter Kit Software and uses the UART on the EM Starter
    Kit to display output. To see output printer to UART, connection to serial
@@ -94,7 +94,7 @@ project name followed by "Debug").
     _Default values in the Debugger tab for JTAG via OpenOCD_
 
     Select **EM Starter Kit v2.x** or **EM Starter Kit v1.x** as development
- system depending on your EM SK version.
+ system depending on your EM Starter Kit version.
 
     The **COM Ports** picklist at **Terminal** tab shows the value for Digilent
     USB Serial Port from the Windows registry. You can modify the value as
