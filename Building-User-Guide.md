@@ -22,8 +22,51 @@ are different for different processors.
 
   _Target Processor Page for ARC HS_
 
-* CPU and endianness options can not be changed, they are set when you choose
- a toolchain for your project.
+### CPU option
+
+CPU option for ARC 600 and ARC 700 has only one value, but for ARC EM there
+ are several possible values: `arcem`, `em`, `em4`, `em4_dmips`, `em4_fpus`
+ and `em4_fpuda`. Possible values for ARC HS CPU are `archs`, `hs`, `hs34`,
+`hs38` and `hs38_linux`. For each of these values there are precompiled standard
+libraries that use some other target options. For example, if you choose `hs34`
+as you CPU, standard library that uses atomic functions and multiply
+option "mpy" will be used. Values of these options are set in IDE when CPU is
+selected and can not be changed to weaker values without changing CPU. For
+example, if DP FPU is selected as a result of selecting CPU, you can not change
+it to any of SP FPU values or "None", but you can change it to DP FPU with extensions.
+
+![ARC HS Target Processor Page with `hs34` selected as CPU
+value](images/building/hs34_selected.png)
+  _ARC HS Target Processor Page with `hs34` selected as CPU
+value_
+
+Here are the options that are required for each of CPU values:
+
+CPU | Multiply | FPU | Barrel shifter | Code density | Integer divide | Bitscan
+--- | --- | --- | --- | --- | --- | ---
+arcem | wlh1 | none | + | + | - | -
+em | none | none | - | - | - | -
+em4 | none | none | - | + | - | -
+em4_dmips | wlh1 | none | + | + | + | +
+em4_fpus | wlh1 | SP FPU | + | + | + | +
+em4_fpuda | wlh1 | FPU with double assist | + | + | + | +
+
+CPU | Multiply | FPU | Integer divide | 64-bit load/store | Atomic
+--- | --- | --- | --- | --- | ---
+archs | mpy | none | + | + | +
+hs | none | none | - | - | -
+hs34 | mpy | none | - | - | +
+hs38 | plus_qmacw | none | + | + | +
+hs38_linux | plus_qmacw | DP FPU with all extensions | + | + | +
+
+> Note that if you use TCF to provide target options, there are no checks that
+> option values are consistent with CPU and you can specify there values that
+> are weaker than CPU value requires. So please be careful when editing TCFs.
+
+### Other options and TCF
+
+* Endianness is set when you choose a toolchain for your project and can not be
+ changed.
 * Other architecture options you can either set manually or choose a TCF file
  for used CPU core (available only for ARC EM and HS), which will set these options
  automatically. The only option that is not set automatically by selecting
