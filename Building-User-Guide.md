@@ -42,14 +42,14 @@ value_
 
 Here are the options that are required for each of CPU values:
 
-CPU | Multiply | FPU | Barrel shifter | Code density | Integer divide | Bitscan
---- | --- | --- | --- | --- | --- | ---
-arcem | wlh1 | none | + | + | - | -
-em | none | none | - | - | - | -
-em4 | none | none | - | + | - | -
-em4_dmips | wlh1 | none | + | + | + | +
-em4_fpus | wlh1 | SP FPU | + | + | + | +
-em4_fpuda | wlh1 | FPU with double assist | + | + | + | +
+CPU | Multiply | FPU | Barrel shifter | Code density | Integer divide | Bitscan | Swap
+--- | --- | --- | --- | --- | --- | --- | ---
+arcem | wlh1 | none | + | + | - | - | -
+em | none | none | - | - | - | - | -
+em4 | none | none | - | + | - | - | -
+em4_dmips | wlh1 | none | + | + | + | + | +
+em4_fpus | wlh1 | SP FPU | + | + | + | + | +
+em4_fpuda | wlh1 | FPU with double assist | + | + | + | + | +
 
 CPU | Multiply | FPU | Integer divide | 64-bit load/store | Atomic
 --- | --- | --- | --- | --- | ---
