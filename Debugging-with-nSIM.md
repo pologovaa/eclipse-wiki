@@ -39,6 +39,8 @@ pages:
     options, if checked, tell nSIM to simulate all exceptions, memory exceptions and
     invalid instruction expections, respectively. If one of these options is unchecked
     and corresponding exception happens, nSIM will exit with an error instead.
+   - **Working Directory** is a directory from which nSIM GDB server will be
+     started. By default it is project location.
 
 ### Debugging an application
 
