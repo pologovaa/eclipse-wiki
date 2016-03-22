@@ -40,7 +40,9 @@ pages:
     invalid instruction expections, respectively. If one of these options is unchecked
     and corresponding exception happens, nSIM will exit with an error instead.
    - **Working Directory** is a directory from which nSIM GDB server will be
-     started. By default it is project location.
+     started. By default it is project location. This option might be useful if
+    your program works with files. To open a file, you can instead of its
+    absolute path provide a path relative to the specified working directory.
 
 ### Debugging an application
 
