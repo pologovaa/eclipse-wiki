@@ -2,6 +2,7 @@
 
 * [Project templates](ARC-Project-Templates)
 * [How to set building options](Building-User-Guide)
+* [How to use custom toolchain](How-to-Use-Custom-Toolchain)
 * [Building Linux uClibc applications](Building-Linux-uClibc-applications)
 
 ## Debugging
