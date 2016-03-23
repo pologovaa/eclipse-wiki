@@ -9,6 +9,7 @@
 
 * [Creating a debug configuration](Creating-a-Debug-Configuration)
 * [Debugging with OpenOCD](Debugging-with-OpenOCD)
+* [How to use OpenOCD on Windows](How-to-Use-OpenOCD-on-Windows)
 * [Debugging with Opella-XD](Debugging-with-OpellaXD)
 * [Debugging with nSIM](Debugging-with-nSIM)
 * [Debugging with custom GDB server](Debugging-with-Custom-GDB-Server)

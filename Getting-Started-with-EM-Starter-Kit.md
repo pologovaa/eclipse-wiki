@@ -62,6 +62,10 @@ Debugging the project
 Once the project is successfully compiled by ARC GCC, you can debug the
 resulting executable on the EM Starter Kit board.
 
+> If you are using Windows platform, please configure drivers for your EM Starter
+> Kit before you begin debug process. For the instructions see
+> [How to use OpenOCD on Windows](How-to-Use-OpenOCD-on-Windows).
+
 To debug the project, create a new debug configuration.
 
 1. Select **Debug Configurations**  from the  **Run**  menu or by clicking on
@@ -96,10 +100,9 @@ project name followed by "Debug").
     Select **EM Starter Kit v2.x** or **EM Starter Kit v1.x** as development
  system depending on your EM Starter Kit version.
 
-    The **COM Ports** picklist at **Terminal** tab shows the value for Digilent
-    USB Serial Port from the Windows registry. You can modify the value as
-    desired, but the selection must match the port number in Device and
-    Printers as shown in below.
+    Open **Terminal** tab and select COM Port. For Linux choose
+    **/dev/ttyUSB1**. For Windows COM Port should match the port number in
+    "Device and Printers" as shown below.
 
     ![Digilent USB Serial COM Port](images/debugging/serial_port_window.png)
 
