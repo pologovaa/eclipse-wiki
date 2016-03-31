@@ -5,6 +5,14 @@ pages:
 * [Building an Application](Building-User-Guide)
 * [Creating a Debug Configuration](Creating-a-Debug-Configuration)
 
+### Board Configuration
+
+For AXS 10x board configuration refer to [toolchain wiki
+guide](https://github.com/foss-for-synopsys-dwc-arc-processors/toolchain/wiki/AXS-SDP-and-OpenOCD#board-configuration)
+and User Guide of AXC00x CPU Card you are using.
+
+For EM Starter Kit use default configuration.
+
 ### Configuring drivers on Windows
 
 If you are using Windows, you should configure drivers for your device before
