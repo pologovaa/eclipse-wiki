@@ -23,7 +23,7 @@ pages:
    example, if you have a TCF for a little endian core, but would like to
    simulate it as a big endian, it is possible to create an properties file
    that will set only a single property for big endian, then in IDE GUI in nSIM
-   GDBserver settings specify bath to both TCF and properties file and that
+   GDBserver settings specify paths to both TCF and properties file and that
    will give a desired results.
 
 

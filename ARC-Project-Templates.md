@@ -7,7 +7,7 @@ Library**, **AXS10x Projects**, **EM Starter Kit Projects**.
 > are supported by it.
 > * **ARC Cross ELF32 Target Application** and **ARC Cross ELF32 Target Static
 >  Library** support all of the toolchains,
-> * **AXS101 Projects** supports ARC 600, ARC 700 and ARC HS toolchains,
+> * **AXS101 Projects** supports ARC 600, ARC 700 and ARC EM toolchains,
 > * **AXS102 Projects** and **AXS 103 Projects** support only ARC HS toolchain,
 > * **EM Starter Kit Projects** -- only ARC EM toolchain.
 >
