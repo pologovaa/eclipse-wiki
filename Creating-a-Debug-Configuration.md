@@ -42,6 +42,12 @@ and their settings see pages
   * [Debugging using custom GDB server](Debugging-with-Custom-GDB-Server)
   * [Using running GDB server](Debugging-with-Running-GDB-Server)
 
+> There is a known problem with changing **ARC GDB Server**'s value on
+> Ubuntu. After changing the value there are only two fields visible: **ARC GDB
+> Server** and **Port number**. Workaround: select GDB server's value,
+> press **Apply** button, then close and open the dialog again. After that all
+> the necessary fields become visible.
+
 
 ## Setting a COM port
 
