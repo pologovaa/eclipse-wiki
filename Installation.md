@@ -72,42 +72,49 @@ To install Eclipse IDE for GNU Toolchain for ARC manually:
 ### 3.1 Downloading latest plugins ###
 
 User can get this plug-in from website URL
-<https://github.com/foss-for-synopsys-dwc-arc-processors/arc_gnu_eclipse/releases>,
+<https://github.com/foss-for-synopsys-dwc-arc-processors/toolchain/releases/>,
 this is an archived version of the GNU ARC Eclipse plug-in update site, the
-file name is arc_gnu_plugins.zip
+file name is arc_gnu_<version>_ide_plugins.zip
 
 ![Components of ARC_GNU_IDE_plugins.zip]
 (images/install/components_of_arc_gnu_plugins_zip.png)
 
-_Components of arc_gnu_plugins.zip_
+_Components of arc_gnu_ide_plugins.zip_
 
 ![Components of arc_gnu_plugins.zip/features]
 (images/install/components_of_arc_gnu_plugins_zip_features.png)
 
-_Components of arc_gnu_plugins.zip features_
+_Components of arc_gnu_ide_plugins.zip features_
 
 ![Components of arc_gnu_plugins.zip plugins]
 (images/install/components_of_arc_gnu_plugins_zip_plugins.png)
 
-_Components of arc_gnu_plugins.zip plugins_
+_Components of arc_gnu_ide_plugins.zip plugins_
 
 
 ### 3.2 Installing into Eclipse ###
 
 To run ARC plugins for Eclipse, it is required to have Target Terminal plugin
 installed in Eclipse. In Eclipse go to "Help", then "Install new Software",
-select "Luna" in "Work with" combo box, then select Target Management Terminal
-which is "An ANSI (vt102) compatible Terminal including plug-ins for Serial,
-SSH and Telnet connections."
+press "Add" button to the right of "Work with" combo box and add new software
+repository http://download.eclipse.org/tm/updates/3.7:
+
+![Adding new repository]
+(images/install/adding_new_repository.png)
+
+_Adding new repository_
+
+Select this repository under "Work with" and install "Target Management
+Terminal (Deprecated)" plugin from "TM Terminal and RSE 3.7 Main Features" group.
 
 ![Installation of Eclipse terminal plugin]
 (images/install/installation_of_eclipse_terminal_plugin.png)
 
 _Installation of Eclipse terminal plugin_
 
-After downloading arc_gnu_plugins.zip successfully, user also can install it
+After downloading arc_gnu_ide_plugins.zip successfully, user also can install it
 from local by pointing Eclipse to it: `Eclipse -> Install New Software -> Add ->
-Archive ->` select arc_gnu_plugins.zip file. Unzip this archived folder, there
+Archive ->` select arc_gnu_ide_plugins.zip file. Unzip this archived folder, there
 will be six components in it.
 
 ![Install from local PC]
