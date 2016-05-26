@@ -23,7 +23,7 @@ Information about Qf-Test installation may be found
 Workflow
 -------------------------
 
-1. Open **arc_gnu_ide_tests.qft** test-suite in Qf-Test.
+1. Open **project_templates_tests.qft** test-suite in Qf-Test.
 2. Connect your board to your computer, choose the core, configure drivers (for
    OpenOCD on Windows).
 3. Set test-suite parameters for your test run (board, core, gdbServer and
@@ -43,8 +43,8 @@ these options. You can also set breakpoints on some nodes.
    is selected).
 6. Depending on the parameters set one or more test-sets will be executed. Each
    test-set corresponds to one project with one configuration and consists of 3
-test-cases: `build`, `setDebugSettings` and `debug`. If `build` test-case fails,
-other test-cases will not be executed.
+test-cases: `build`, `setDebugSettings` and `debug`. If one of these test-cases
+fails, following test-cases will not be executed.
 7. After test run is finished, you can see the results in the bottom right
    corner of the Qf-Test window, where numbers of successful, failed and skipped
 tests are shown. You can also see the run-log by pressing `Ctrl+L` or choosing
