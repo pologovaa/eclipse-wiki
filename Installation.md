@@ -95,7 +95,10 @@ _Components of arc_gnu_ide_plugins.zip plugins_
 ### 3.2 Installing into Eclipse ###
 
 To run ARC plugins for Eclipse, it is required to have Target Terminal plugin
-installed in Eclipse. In Eclipse go to "Help", then "Install new Software",
+installed in Eclipse. 
+
+##### For ARC GNU 2016.03 and earlier:
+In Eclipse go to "Help", then "Install new Software",
 press "Add" button to the right of "Work with" combo box and add new software
 repository http://download.eclipse.org/tm/updates/3.7:
 
@@ -111,6 +114,13 @@ Terminal (Deprecated)" plugin from "TM Terminal and RSE 3.7 Main Features" group
 (images/install/installation_of_eclipse_terminal_plugin.png)
 
 _Installation of Eclipse terminal plugin_
+
+##### For more recent versions:
+Install "TM Terminal" plugin from Mars repository.
+
+![Installation of TM Terminal in Eclipse]
+(/images/install/installation_of_tm_terminal.png)
+_Installation of TM Terminal in Eclipse_
 
 After downloading arc_gnu_ide_plugins.zip successfully, user also can install it
 from local by pointing Eclipse to it: `Eclipse -> Install New Software -> Add ->
