@@ -124,8 +124,18 @@ equal to *hello* or *empty*. If left blank, both templates will be used.
 + **mcpu** - mcpu flag to be passed to compiler. For ARC 600 there is only one
   mcpu value: `arc600`, for ARC 700 - `arc700`. For ARC EM values are: `em`,
 `arcem`, `em4`, `em4_dmips`, `em4_fpus` and `em4_fpuda`, for ARC HS: `hs`,
-`archs`, `hs34`, `hs38`, `hs38_linux`. If left blank, all the mcpu values will
-be tested.
+`archs`, `hs34`, `hs38`, `hs38_linux`.
+
+  However, if using this option, you have to be careful since not all of the
+options are applicable to all of the cores that can be used. For every project
+template and every board and core there is a list of mcpu values that will be
+run if this field is left blank. Usually there are only one of two values in
+these lists. For example, "Hello World for EMSK 1.1 Project" on EM4 will be run
+only using `em4_dmips` mcpu value, but "Empty Project for EM4" will use `em4`
+and `em4_dmips`.
+
+  The lists of the mcpu values to be used by default can be found in the
+"template" data table of the top-most "debug" test-set's data driver.
 
 ### OpenOCD and Ashling parameters
 
