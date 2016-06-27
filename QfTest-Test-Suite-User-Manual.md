@@ -78,7 +78,7 @@ definitions section test-suite parameters are listed. Required fields are
 + **eclipsedir**  - directory with the eclipse that will be tested;
 + **workspace** - workspace for eclipse to use for test projects.
 
-Optional fields for all tests:
+#### Optional fields for all tests:
 
 + **language** - either *c*, *c++* or may be left blank. If blank, both
   languages will be tested.
@@ -116,7 +116,7 @@ be taken from the directory `tcf/toolchain/endian/` relative to the test suite
 location, so the available values are the names of files in this directory
 (without extension).
 
-### EMSK and AXS10x parameters
+### EMSK and AXS10x parameters (optional)
 
 + **template** - for EMSK there are "Hello World" and empty templates
   available. You can choose the template to be tested by setting **template**
