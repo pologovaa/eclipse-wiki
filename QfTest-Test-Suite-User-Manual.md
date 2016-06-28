@@ -145,7 +145,9 @@ and `em4_dmips`.
   arc-reg-files;
 + **comPort** - on Windows if you want to check UART output, you have to
   specify the COM port of your connected board from "Devices and Printers"
-dialog. If left blank, output just will not be checked.
+dialog. Use only the number, without the "COM" prefix. For example, if your
+"Devices and Printers" shows "COM5", put "5" in this field. If left blank,
+ output just will not be checked.
 
 
 ### Other parameters
